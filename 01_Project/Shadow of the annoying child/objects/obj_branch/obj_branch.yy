@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_branch",
     "eventList": [
-        {
-            "id": "5cc2f5ad-e98b-4ebf-8b2e-b46516a9bbca",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "1c44b7b4-23c4-462e-b4ee-8493f5507e83",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "a2a8b011-37fd-4cae-9a79-60db875406af"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
