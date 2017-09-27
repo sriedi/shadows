@@ -1,10 +1,12 @@
 /// @DnDAction : YoYo Games.Movement.Jump_To_Point
 /// @DnDVersion : 1
 /// @DnDHash : 44DEE36B
+
 /// @DnDArgument : "x" "obj_player1.x-32"
 /// @DnDArgument : "y" "obj_player1.y-128"
 x = obj_player1.x-32;
 y = obj_player1.y-128;
+
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
