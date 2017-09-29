@@ -1,13 +1,22 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 46149BFB
-/// @DnDArgument : "code" "/// Movement$(13_10)$(13_10)Key_right = keyboard_check(vk_right)|| (gamepad_axis_value(0,gp_axislh)> 0);$(13_10)Key_left = - keyboard_check(vk_left)|| (gamepad_axis_value(0,gp_axislh)< 0);$(13_10)Key_up  = -keyboard_check(vk_up)|| (gamepad_axis_value(0,gp_axislv)> 0);$(13_10)Key_down = keyboard_check(vk_up)|| (gamepad_axis_value(0,gp_axislv)< 0);$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)"
+/// @DnDArgument : "code" "/// Movement$(13_10)$(13_10)Key_right = keyboard_check(vk_right)|| (gamepad_axis_value(0,gp_axislh)> 0);$(13_10)Key_left = - keyboard_check(vk_left)|| (gamepad_axis_value(0,gp_axislh)< 0);$(13_10)Key_up  = - keyboard_check(vk_up)|| (gamepad_axis_value(0,gp_axislv)> 0);$(13_10)Key_down = keyboard_check(vk_down)|| (gamepad_axis_value(0,gp_axislv)< 0);$(13_10)$(13_10)$(13_10)if (speed > maxspeed) { speed = maxspeed} "
 /// Movement
 
 Key_right = keyboard_check(vk_right)|| (gamepad_axis_value(0,gp_axislh)> 0);
 Key_left = - keyboard_check(vk_left)|| (gamepad_axis_value(0,gp_axislh)< 0);
-Key_up  = -keyboard_check(vk_up)|| (gamepad_axis_value(0,gp_axislv)> 0);
-Key_down = keyboard_check(vk_up)|| (gamepad_axis_value(0,gp_axislv)< 0);
+Key_up  = - keyboard_check(vk_up)|| (gamepad_axis_value(0,gp_axislv)> 0);
+Key_down = keyboard_check(vk_down)|| (gamepad_axis_value(0,gp_axislv)< 0);
+
+
+if (speed > maxspeed) { speed = maxspeed}
+
+/// @DnDAction : YoYo Games.Gamepad.Set_Gamepad_Axis_Deadzone
+/// @DnDVersion : 1
+/// @DnDHash : 09527CCE
+/// @DnDArgument : "deadzone" "0.4"
+gamepad_set_axis_deadzone(0, 0.4);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
