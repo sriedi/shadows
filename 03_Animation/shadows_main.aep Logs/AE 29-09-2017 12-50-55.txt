@@ -1,0 +1,22 @@
+Adobe After Effects v14.2.1 Windows 64 render log for project “shadows_main.aep”
+
+Rendering started on 29/09/2017 at 12:50:55
+
+  29/09/2017 12:50:55: Starting composition “Tourch_Lit”.
+
+  Output To: C:\Users\sebi-\Desktop\GameDesign\03_Projects\GA0117_Shadows\XX_GIT\shadows\03_Animation\_Export\Tourch_Lit\Tourch_Lit_[#####].png    29/09/2017 12:50:55: Finished composition “Tourch_Lit”.
+
+
+  29/09/2017 12:50:55: Starting composition “Tourch_Burn”.
+
+  Output To: C:\Users\sebi-\Desktop\GameDesign\03_Projects\GA0117_Shadows\XX_GIT\shadows\03_Animation\_Export\Tourch_Burn\Tourch_Burn_[#####].png    29/09/2017 12:50:55: Finished composition “Tourch_Burn”.
+
+
+  29/09/2017 12:50:55: Starting composition “Tourch_Brigth”.
+
+  Output To: C:\Users\sebi-\Desktop\GameDesign\03_Projects\GA0117_Shadows\XX_GIT\shadows\03_Animation\_Export\Tourch_Brigth\Tourch_Brigth_[#####].png    29/09/2017 12:50:55: Finished composition “Tourch_Brigth”.
+
+
+  Total Time Elapsed: 0 Seconds
+Log closed on 29/09/2017 at 12:50:55
+
