@@ -21,18 +21,14 @@ if(global.fuel >= 0)
 		/// @DnDAction : YoYo Games.Common.Set_Global
 		/// @DnDVersion : 1
 		/// @DnDHash : 0E8D646F
+		/// @DnDInput : 2
 		/// @DnDParent : 59589AE5
 		/// @DnDArgument : "value" "-0.005"
 		/// @DnDArgument : "value_relative" "1"
+		/// @DnDArgument : "value_1" "(global.fuel/10)*global.brightness_mod"
 		/// @DnDArgument : "var" "fuel"
+		/// @DnDArgument : "var_1" "brightness"
 		global.fuel += -0.005;
-	
-		/// @DnDAction : YoYo Games.Common.Set_Global
-		/// @DnDVersion : 1
-		/// @DnDHash : 7ADC6B8E
-		/// @DnDParent : 59589AE5
-		/// @DnDArgument : "value" "(global.fuel/10)*global.brightness_mod"
-		/// @DnDArgument : "var" "brightness"
 		global.brightness = (global.fuel/10)*global.brightness_mod;
 	
 		/// @DnDAction : YoYo Games.Instances.Sprite_Scale

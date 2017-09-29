@@ -25,3 +25,10 @@ image_yscale = global.brightness;
 /// @DnDHash : 251FA2FD
 /// @DnDArgument : "alpha" "0.45"
 image_alpha = 0.45;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 47E872EA
+/// @DnDArgument : "value" "sqr((obj_light.sprite_width*obj_light.sprite_width)+(obj_light.sprite_height*obj_light.sprite_height))/2"
+/// @DnDArgument : "var" "light_scale"
+global.light_scale = sqr((obj_light.sprite_width*obj_light.sprite_width)+(obj_light.sprite_height*obj_light.sprite_height))/2;

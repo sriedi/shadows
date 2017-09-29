@@ -15,7 +15,9 @@ y += -Player_speed;
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
 /// @DnDHash : 06E397D8
+/// @DnDArgument : "imageind" "19"
+/// @DnDArgument : "imageind_relative" "1"
 /// @DnDArgument : "spriteind" "spr_Player_up"
 /// @DnDSaveInfo : "spriteind" "f79b890a-2e22-4ac2-b71e-e242a37e6605"
 sprite_index = spr_Player_up;
-image_index = 0;
+image_index += 19;
