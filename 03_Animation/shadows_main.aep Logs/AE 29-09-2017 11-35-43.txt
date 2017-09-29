@@ -1,0 +1,17 @@
+Adobe After Effects v14.2.1 Windows 64 render log for project “shadows_main.aep”
+
+Rendering started on 29/09/2017 at 11:35:43
+
+  29/09/2017 11:35:43: Starting composition “Run_Down_Empty”.
+
+  Output To: C:\Users\sebi-\Desktop\GameDesign\03_Projects\GA0117_Shadows\XX_GIT\shadows\03_Animation\_Export\Run_Down_Empty\Run_Down_Empty_[#####].png    29/09/2017 11:35:44: Finished composition “Run_Down_Empty”.
+
+
+  29/09/2017 11:35:44: Starting composition “Run_Down_Tourch”.
+
+  Output To: C:\Users\sebi-\Desktop\GameDesign\03_Projects\GA0117_Shadows\XX_GIT\shadows\03_Animation\_Export\Run_Down_Tourch\Run_Down_Tourch_[#####].png    29/09/2017 11:35:44: Finished composition “Run_Down_Tourch”.
+
+
+  Total Time Elapsed: 1 Seconds
+Log closed on 29/09/2017 at 11:35:44
+
