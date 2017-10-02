@@ -23,6 +23,15 @@ if(distance_to_object(obj_player1) <= 20)
 		/// @DnDSaveInfo : "spriteind" "f5d0f173-6f95-472d-bc4a-d0ba2b45b600"
 		sprite_index = spr_baby_c;
 		image_index += 0;
+	
+		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+		/// @DnDVersion : 1
+		/// @DnDHash : 4372805A
+		/// @DnDParent : 0D0E6C4C
+		/// @DnDArgument : "x" "obj_player1.x"
+		/// @DnDArgument : "y" "obj_player1.y"
+		x = obj_player1.x;
+		y = obj_player1.y;
 	}
 
 	/// @DnDAction : YoYo Games.Common.Else

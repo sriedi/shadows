@@ -1,10 +1,49 @@
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 068EE6B1
+/// @DnDArgument : "code" "hspeed = 0;$(13_10)if  (!place_meeting(x,y-3,obj_wall))$(13_10){$(13_10)if  (place_meeting(x,y+32,obj_player1))$(13_10){$(13_10)	if (keyboard_check(vk_space))$(13_10)	{$(13_10)	move_towards_point(x,y-5,1)$(13_10)	 $(13_10)		}$(13_10)	}$(13_10)}else {move_towards_point(x,y+1,0)  }$(13_10)$(13_10)$(13_10)if  (!place_meeting(x,y+30,obj_wall))$(13_10){$(13_10)if  (place_meeting(x,y-30,obj_player1))$(13_10){$(13_10)	if (keyboard_check(vk_space))$(13_10)	{$(13_10)	move_towards_point(x,y+5,1)$(13_10)	$(13_10)	}$(13_10)}$(13_10)$(13_10)}$(13_10)$(13_10)$(13_10)$(13_10) if distance_to_object(obj_player1) >12$(13_10) {$(13_10) move_towards_point(x,y,0) $(13_10)$(13_10) }"
+hspeed = 0;
+if  (!place_meeting(x,y-3,obj_wall))
+{
+if  (place_meeting(x,y+32,obj_player1))
+{
+	if (keyboard_check(vk_space))
+	{
+	move_towards_point(x,y-5,1)
+	 
+		}
+	}
+}else {move_towards_point(x,y+1,0)  }
+
+
+if  (!place_meeting(x,y+30,obj_wall))
+{
+if  (place_meeting(x,y-30,obj_player1))
+{
+	if (keyboard_check(vk_space))
+	{
+	move_towards_point(x,y+5,1)
+	
+	}
+}
+
+}
+
+
+
+ if distance_to_object(obj_player1) >12
+ {
+ move_towards_point(x,y,0) 
+
+ }
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1D67B94F
 /// @DnDArgument : "var" "distance_to_object(obj_player1)"
 /// @DnDArgument : "op" "3"
-/// @DnDArgument : "value" "30"
-if(distance_to_object(obj_player1) <= 30)
+/// @DnDArgument : "value" "20"
+if(distance_to_object(obj_player1) <= 20)
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -30,15 +69,6 @@ if(distance_to_object(obj_player1) <= 30)
 			/// @DnDArgument : "value" "instance_nearest(obj_player1.x,obj_player1.y,obj_movebleobj_ver).y"
 			if(obj_player1.y-32 <= instance_nearest(obj_player1.x,obj_player1.y,obj_movebleobj_ver).y)
 			{
-				/// @DnDAction : YoYo Games.Movement.Jump_To_Point
-				/// @DnDVersion : 1
-				/// @DnDHash : 3DB21B27
-				/// @DnDParent : 156266AF
-				/// @DnDArgument : "x" "instance_nearest(obj_player1.x,obj_player1.y,obj_movebleobj_ver).x"
-				/// @DnDArgument : "y" "obj_player1.y+68"
-				x = instance_nearest(obj_player1.x,obj_player1.y,obj_movebleobj_ver).x;
-				y = obj_player1.y+68;
-			
 				/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 				/// @DnDVersion : 1
 				/// @DnDHash : 7D1D06B3
@@ -56,15 +86,6 @@ if(distance_to_object(obj_player1) <= 30)
 			/// @DnDArgument : "value" "instance_nearest(obj_player1.x,obj_player1.y,obj_movebleobj_ver).y"
 			if(obj_player1.y+32 >= instance_nearest(obj_player1.x,obj_player1.y,obj_movebleobj_ver).y)
 			{
-				/// @DnDAction : YoYo Games.Movement.Jump_To_Point
-				/// @DnDVersion : 1
-				/// @DnDHash : 6A7B2714
-				/// @DnDParent : 448DCFC8
-				/// @DnDArgument : "x" "instance_nearest(obj_player1.x,obj_player1.y,obj_movebleobj_ver).x"
-				/// @DnDArgument : "y" "obj_player1.y-68"
-				x = instance_nearest(obj_player1.x,obj_player1.y,obj_movebleobj_ver).x;
-				y = obj_player1.y-68;
-			
 				/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 				/// @DnDVersion : 1
 				/// @DnDHash : 4BB7EE34
