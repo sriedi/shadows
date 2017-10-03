@@ -1,16 +1,19 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 2F646592
-/// @DnDInput : 3
+/// @DnDInput : 4
 /// @DnDArgument : "value" "10"
 /// @DnDArgument : "value_1" "global.fuel/10"
 /// @DnDArgument : "value_2" "1"
+/// @DnDArgument : "value_3" "10"
 /// @DnDArgument : "var" "fuel"
 /// @DnDArgument : "var_1" "brightness"
 /// @DnDArgument : "var_2" "brightness_mod"
+/// @DnDArgument : "var_3" "maxfuel"
 global.fuel = 10;
 global.brightness = global.fuel/10;
 global.brightness_mod = 1;
+global.maxfuel = 10;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1

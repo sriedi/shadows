@@ -5,6 +5,23 @@ event_inherited();
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 799BE339
+/// @DnDArgument : "var" "global.fuel"
+/// @DnDArgument : "op" "2"
+/// @DnDArgument : "value" "global.maxfuel"
+if(global.fuel > global.maxfuel)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 4D25E019
+	/// @DnDParent : 799BE339
+	/// @DnDArgument : "expr" "10"
+	/// @DnDArgument : "var" "global.fuel"
+	global.fuel = 10;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 7F3ED36D
 /// @DnDArgument : "var" "global.fuel"
 /// @DnDArgument : "op" "4"
@@ -23,12 +40,12 @@ if(global.fuel >= 0)
 		/// @DnDHash : 0E8D646F
 		/// @DnDInput : 2
 		/// @DnDParent : 59589AE5
-		/// @DnDArgument : "value" "-0.005"
+		/// @DnDArgument : "value" "-0.003"
 		/// @DnDArgument : "value_relative" "1"
 		/// @DnDArgument : "value_1" "(global.fuel/10)*global.brightness_mod"
 		/// @DnDArgument : "var" "fuel"
 		/// @DnDArgument : "var_1" "brightness"
-		global.fuel += -0.005;
+		global.fuel += -0.003;
 		global.brightness = (global.fuel/10)*global.brightness_mod;
 	
 		/// @DnDAction : YoYo Games.Instances.Sprite_Scale

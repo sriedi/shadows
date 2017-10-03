@@ -1,10 +1,10 @@
 /// @DnDAction : YoYo Games.Movement.Jump_To_Point
 /// @DnDVersion : 1
 /// @DnDHash : 7DDEEA92
-/// @DnDArgument : "x" "obj_player1.x"
-/// @DnDArgument : "y" "obj_player1.y"
-x = obj_player1.x;
-y = obj_player1.y;
+/// @DnDArgument : "x" "obj_player1.x-18"
+/// @DnDArgument : "y" "obj_player1.y-30"
+x = obj_player1.x-18;
+y = obj_player1.y-30;
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1

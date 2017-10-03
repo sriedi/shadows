@@ -119,12 +119,12 @@ else
 	/// @DnDHash : 46EB4EC3
 	/// @DnDInput : 2
 	/// @DnDParent : 112A2F79
-	/// @DnDArgument : "expr" "-5"
+	/// @DnDArgument : "expr" "-1"
 	/// @DnDArgument : "expr_1" "fear_blead"
 	/// @DnDArgument : "expr_relative_1" "1"
 	/// @DnDArgument : "var" "enemysdp"
 	/// @DnDArgument : "var_1" "fear"
-	enemysdp = -5;
+	enemysdp = -1;
 	fear += fear_blead;
 
 	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
