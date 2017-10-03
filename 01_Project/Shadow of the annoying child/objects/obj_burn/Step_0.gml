@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 6C55B283
-/// @DnDArgument : "code" "/// burn$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)if (distance_to_object(obj_player1)< 30)$(13_10){$(13_10)$(13_10)instance_id = instance_nearest(obj_player1.x,obj_player1.y,obj_burn);$(13_10)			$(13_10)$(13_10)$(13_10)$(13_10)if (keyboard_check(vk_shift))$(13_10)$(13_10){$(13_10)		variable_global_set ("isburning", -1);$(13_10)		variable_global_set ("enemyagro", global.enemyagro +0.2);$(13_10)		$(13_10)$(13_10)}$(13_10)}$(13_10)$(13_10)if (global.isburning <0 )$(13_10)$(13_10){$(13_10)	$(13_10)variable_global_set ("Burningtime", global.Burningtime-1);$(13_10)}$(13_10)$(13_10)			$(13_10)			if (global.Burningtime <0 )$(13_10)$(13_10)			{$(13_10)			variable_global_set ("Burningtime", 300);$(13_10)			variable_global_set ("isburning", 1);$(13_10)			instance_destroy (instance_id);$(13_10)			} "
+/// @DnDArgument : "code" "/// burn$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)if (distance_to_object(obj_player1)< 30)$(13_10){$(13_10)$(13_10)ranke = instance_nearest(obj_player1.x,obj_player1.y,obj_burn);$(13_10)			$(13_10)$(13_10)$(13_10)$(13_10)if (keyboard_check(vk_shift))$(13_10)$(13_10){$(13_10)		variable_global_set ("isburning", -1);$(13_10)		variable_global_set ("enemyagro", global.enemyagro +0.2);$(13_10)		$(13_10)$(13_10)}$(13_10)}$(13_10)$(13_10)if (global.isburning <0 )$(13_10)$(13_10){$(13_10)	$(13_10)variable_global_set ("Burningtime", global.Burningtime-1);$(13_10)}$(13_10)$(13_10)			$(13_10)			if (global.Burningtime <0 )$(13_10)$(13_10)			{$(13_10)			variable_global_set ("Burningtime", 300);$(13_10)			variable_global_set ("isburning", 1);$(13_10)			instance_destroy (ranke);$(13_10)			} "
 /// burn
 
 
@@ -10,7 +10,7 @@
 if (distance_to_object(obj_player1)< 30)
 {
 
-instance_id = instance_nearest(obj_player1.x,obj_player1.y,obj_burn);
+ranke = instance_nearest(obj_player1.x,obj_player1.y,obj_burn);
 			
 
 
@@ -38,7 +38,7 @@ variable_global_set ("Burningtime", global.Burningtime-1);
 			{
 			variable_global_set ("Burningtime", 300);
 			variable_global_set ("isburning", 1);
-			instance_destroy (instance_id);
+			instance_destroy (ranke);
 			}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
