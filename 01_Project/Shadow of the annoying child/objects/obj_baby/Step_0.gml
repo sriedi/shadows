@@ -1,3 +1,35 @@
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 7E939E28
+/// @DnDArgument : "code" "depth =-1"
+depth =-1
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3BB9EE32
+/// @DnDArgument : "var" "distance_to_object(obj_enemy)"
+/// @DnDArgument : "op" "3"
+/// @DnDArgument : "value" "30"
+if(distance_to_object(obj_enemy) <= 30)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 4FEAAD97
+	/// @DnDParent : 3BB9EE32
+	/// @DnDArgument : "imageind_relative" "1"
+	/// @DnDArgument : "spriteind" "spr_baby_cray"
+	/// @DnDSaveInfo : "spriteind" "9044138d-26ce-492b-b4fe-c9c8ee33003e"
+	sprite_index = spr_baby_cray;
+	image_index += 0;
+
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 276ED81A
+	/// @DnDParent : 3BB9EE32
+	/// @DnDArgument : "code" "gamepad_set_vibration(0, 1, 1);"
+	gamepad_set_vibration(0, 1, 1);
+}
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 084DA18C

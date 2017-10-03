@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "9044138d-26ce-492b-b4fe-c9c8ee33003e",
+            "Value": {
+                "id": "8e4adedf-14cf-4e65-9676-ee047869db93",
+                "resourcePath": "sprites\\spr_baby_cray\\spr_baby_cray.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9cc0848d-35bb-4ad9-8691-1dd1fd61a106",
             "Value": {
                 "id": "e2942dc4-a6f5-4b09-a2a8-0614506c9a10",
