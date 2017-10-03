@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 068EE6B1
-/// @DnDArgument : "code" "//hspeed = 0;$(13_10)$(13_10)$(13_10)if  (global.carry = 0 )$(13_10){$(13_10)$(13_10)if  (!place_meeting(x,y-3,obj_wall))$(13_10){$(13_10)if  (place_meeting(x,y+32,obj_player1))$(13_10){$(13_10)	if (keyboard_check(vk_space))$(13_10)	{$(13_10)	move_towards_point(x,y-5,1)$(13_10)	 $(13_10)		}$(13_10)	}$(13_10)}else {move_towards_point(x,y+1,0)  }$(13_10)$(13_10)$(13_10)if  (!place_meeting(x,y+30,obj_wall))$(13_10){$(13_10)if  (place_meeting(x,y-30,obj_player1))$(13_10){$(13_10)	if (keyboard_check(vk_space))$(13_10)	{$(13_10)	move_towards_point(x,y+5,1)$(13_10)	$(13_10)	}$(13_10)}$(13_10)$(13_10)}$(13_10)$(13_10)$(13_10)$(13_10) if distance_to_object(obj_player1) >12$(13_10) {$(13_10) move_towards_point(x,y,0) $(13_10) }$(13_10) $(13_10)}"
+/// @DnDArgument : "code" "//hspeed = 0;$(13_10)$(13_10)$(13_10)if  (global.carry = 0 )$(13_10){$(13_10)$(13_10)if  (!place_meeting(x,y-3,obj_wall))$(13_10){$(13_10)if  (place_meeting(x,y+32,obj_player1))$(13_10){$(13_10)	if (keyboard_check(vk_alt))$(13_10)	{$(13_10)	move_towards_point(x,y-5,1)$(13_10)	 $(13_10)		}$(13_10)	}$(13_10)}else {move_towards_point(x,y+1,0)  }$(13_10)$(13_10)$(13_10)if  (!place_meeting(x,y+30,obj_wall))$(13_10){$(13_10)if  (place_meeting(x,y-30,obj_player1))$(13_10){$(13_10)	if (keyboard_check(vk_alt))$(13_10)	{$(13_10)	move_towards_point(x,y+5,1)$(13_10)	$(13_10)	}$(13_10)}$(13_10)$(13_10)}$(13_10)$(13_10)$(13_10)$(13_10) if distance_to_object(obj_player1) >12$(13_10) {$(13_10) move_towards_point(x,y,0) $(13_10) }$(13_10) $(13_10)}"
 //hspeed = 0;
 
 
@@ -12,7 +12,7 @@ if  (!place_meeting(x,y-3,obj_wall))
 {
 if  (place_meeting(x,y+32,obj_player1))
 {
-	if (keyboard_check(vk_space))
+	if (keyboard_check(vk_alt))
 	{
 	move_towards_point(x,y-5,1)
 	 
@@ -25,7 +25,7 @@ if  (!place_meeting(x,y+30,obj_wall))
 {
 if  (place_meeting(x,y-30,obj_player1))
 {
-	if (keyboard_check(vk_space))
+	if (keyboard_check(vk_alt))
 	{
 	move_towards_point(x,y+5,1)
 	
@@ -62,8 +62,9 @@ if(distance_to_object(obj_player1) <= 20)
 		/// @DnDVersion : 1
 		/// @DnDHash : 61E73CE1
 		/// @DnDParent : 2EB4A07B
+		/// @DnDArgument : "key" "vk_alt"
 		var l61E73CE1_0;
-		l61E73CE1_0 = keyboard_check(vk_space);
+		l61E73CE1_0 = keyboard_check(vk_alt);
 		if (l61E73CE1_0)
 		{
 			/// @DnDAction : YoYo Games.Common.If_Variable

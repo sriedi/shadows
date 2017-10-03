@@ -10,18 +10,24 @@ if(distance_to_object(obj_player1) <= 20)
 	/// @DnDVersion : 1
 	/// @DnDHash : 70AC1C8E
 	/// @DnDParent : 057AA29F
+	/// @DnDArgument : "key" "vk_alt"
 	var l70AC1C8E_0;
-	l70AC1C8E_0 = keyboard_check(vk_space);
+	l70AC1C8E_0 = keyboard_check(vk_alt);
 	if (l70AC1C8E_0)
 	{
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 49CFC5C4
+		/// @DnDInput : 2
 		/// @DnDParent : 70AC1C8E
 		/// @DnDArgument : "expr" "+3"
 		/// @DnDArgument : "expr_relative" "1"
+		/// @DnDArgument : "expr_1" "0.2"
+		/// @DnDArgument : "expr_relative_1" "1"
 		/// @DnDArgument : "var" "global.fuel"
+		/// @DnDArgument : "var_1" "global.enemyagro"
 		global.fuel += +3;
+		global.enemyagro += 0.2;
 	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1

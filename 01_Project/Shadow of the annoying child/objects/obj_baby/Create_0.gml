@@ -8,3 +8,9 @@
 /// @DnDArgument : "var_1" "damage"
 global.hp_baby = 100;
 global.damage = -1;
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 0E1D50EB
+/// @DnDArgument : "code" "depth =-20"
+depth =-20

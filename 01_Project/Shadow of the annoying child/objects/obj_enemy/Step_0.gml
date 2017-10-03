@@ -66,11 +66,6 @@ sprite_index = spr_Enemy_down;
 	enemysdp = enemysdp*global.enemyagro
 	}
 
-/// @DnDAction : YoYo Games.Paths.Start_Path
-/// @DnDVersion : 1.1
-/// @DnDHash : 13B1389F
-path_start(noone, 1, path_action_stop, false);
-
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1D251F5A

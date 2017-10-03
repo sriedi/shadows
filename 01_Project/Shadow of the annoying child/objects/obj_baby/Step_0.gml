@@ -1,9 +1,3 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 7E939E28
-/// @DnDArgument : "code" "depth =-1"
-depth =-1
-
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3BB9EE32
@@ -35,15 +29,16 @@ if(distance_to_object(obj_enemy) <= 30)
 /// @DnDHash : 084DA18C
 /// @DnDArgument : "var" "distance_to_object(obj_player1)"
 /// @DnDArgument : "op" "3"
-/// @DnDArgument : "value" "20"
-if(distance_to_object(obj_player1) <= 20)
+/// @DnDArgument : "value" "30"
+if(distance_to_object(obj_player1) <= 30)
 {
 	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 	/// @DnDVersion : 1
 	/// @DnDHash : 0D0E6C4C
 	/// @DnDParent : 084DA18C
+	/// @DnDArgument : "key" "vk_alt"
 	var l0D0E6C4C_0;
-	l0D0E6C4C_0 = keyboard_check(vk_space);
+	l0D0E6C4C_0 = keyboard_check(vk_alt);
 	if (l0D0E6C4C_0)
 	{
 		/// @DnDAction : YoYo Games.Common.If_Variable

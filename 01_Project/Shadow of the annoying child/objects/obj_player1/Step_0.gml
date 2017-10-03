@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 46149BFB
-/// @DnDArgument : "code" "/// Movement$(13_10)$(13_10)Key_right = keyboard_check(vk_right)|| (gamepad_axis_value(0,gp_axislh)<0);$(13_10)Key_left =  - keyboard_check(vk_left)|| (gamepad_axis_value(0,gp_axislh)> 0);$(13_10)Key_up  = - keyboard_check(vk_up)|| (gamepad_axis_value(0,gp_axislv)> 0);$(13_10)Key_down = keyboard_check(vk_down)|| (gamepad_axis_value(0,gp_axislv)< 0);$(13_10)$(13_10)$(13_10)wall = obj_wall;$(13_10)$(13_10)movewall = obj_movebleobj_ver;$(13_10)movewallh = obj_movebleobj_hor;$(13_10)burnobj = obj_burn;$(13_10)$(13_10)$(13_10)$(13_10)//-----------------------------------------------------------------------------------------------------------------------------------$(13_10)$(13_10)$(13_10)$(13_10)//-----------------------------------------------------------------------------------------------------------------------------------$(13_10)if (keyboard_check(vk_left))$(13_10){$(13_10)	if  (!place_meeting(x - collisionspd,y,wall)&&!place_meeting(x - collisionspd,y, movewall)&&!place_meeting(x - collisionspd,y, movewallh)&&!place_meeting(x - collisionspd,y, burnobj))$(13_10)	$(13_10)	{$(13_10)	direction = 180; $(13_10)	image_speed = imagesdp;$(13_10)	speed  = Player_speed;$(13_10)	sprite_index = spr_Player_left;$(13_10)$(13_10)	$(13_10)		if  keyboard_check(vk_shift)$(13_10)		{$(13_10)		direction = 180; $(13_10)		speed = Player_speed;$(13_10)		image_speed = imagesdp;$(13_10)		sprite_index = spr_Player_left_t;$(13_10)		}$(13_10)$(13_10)	}else{ hspeed = 0;}$(13_10)} $(13_10)$(13_10)$(13_10)if    (keyboard_check(vk_right))$(13_10){$(13_10)	if(!place_meeting(x + collisionspd,y, wall)&&!place_meeting(x + collisionspd,y, movewall)&&!place_meeting(x + collisionspd,y, movewallh)&&!place_meeting(x + collisionspd,y, burnobj))$(13_10)	$(13_10)	{$(13_10)	direction = 0; $(13_10)	hspeed = 5;$(13_10)	speed = Player_speed;$(13_10)	image_speed = imagesdp;$(13_10)	sprite_index = spr_Player_Right;$(13_10)$(13_10)$(13_10)		if  keyboard_check(vk_shift)$(13_10)		{$(13_10)		direction = 0; $(13_10)		speed = Player_speed;$(13_10)		image_speed = imagesdp;$(13_10)		sprite_index = spr_Player_right_t;$(13_10)		}$(13_10)$(13_10)	}else{ hspeed = 0;}$(13_10)} $(13_10)$(13_10)$(13_10)$(13_10)$(13_10)if  (!place_meeting(x,y - collisionspd,wall)&&!place_meeting(x,y- collisionspd, movewall)&&!place_meeting(x,y- collisionspd, movewallh)&&!place_meeting(x,y- collisionspd, burnobj))$(13_10){$(13_10)	if (keyboard_check(vk_up))$(13_10)	$(13_10)	{$(13_10)	direction = 90; $(13_10)	speed = Player_speed;$(13_10)	image_speed = imagesdp;$(13_10)	sprite_index = spr_Player_up;$(13_10)$(13_10)	$(13_10)		if  keyboard_check(vk_shift)$(13_10)		{$(13_10)		direction = 90; $(13_10)		speed = Player_speed;$(13_10)		image_speed = imagesdp;$(13_10)		sprite_index = spr_Player_up_t;$(13_10)		}$(13_10)$(13_10)	}$(13_10)} else{ vspeed = 0;}$(13_10)$(13_10)if  (!place_meeting(x,y + collisionspd,wall)&&!place_meeting(x,y+ collisionspd, movewall)&&!place_meeting(x,y+ collisionspd, movewallh)&&!place_meeting(x,y+ collisionspd, burnobj))$(13_10){$(13_10)	if (keyboard_check(vk_down))$(13_10)	$(13_10)	{$(13_10)	direction = 270; $(13_10)	speed = Player_speed;$(13_10)	image_speed = imagesdp;$(13_10)	sprite_index = spr_Player_Down;$(13_10)	$(13_10)	$(13_10)		if  keyboard_check(vk_shift)$(13_10)		{$(13_10)		direction = 270; $(13_10)		speed = Player_speed;$(13_10)		image_speed = imagesdp;$(13_10)		sprite_index = spr_Player_down_t;$(13_10)		}$(13_10)$(13_10)	}$(13_10)}else{ vspeed = 0;}$(13_10)//-----------------------------------------------------------------------------------------------------------------------------------$(13_10)$(13_10)$(13_10)if (!place_meeting(x + collisionspd,y - collisionspd,wall)&&!place_meeting(x + collisionspd,y- collisionspd, movewall)&&!place_meeting(x + collisionspd,y- collisionspd, movewallh)&&!place_meeting(x + collisionspd,y- collisionspd, burnobj)) $(13_10)$(13_10)$(13_10){ if (keyboard_check(vk_right)&& keyboard_check(vk_up))$(13_10)$(13_10){$(13_10) direction = 45; $(13_10) speed = Player_speed;$(13_10) image_speed = imagesdp;$(13_10) sprite_index = spr_Player_Right;$(13_10)$(13_10)	if  keyboard_check(vk_shift)$(13_10)	{$(13_10)	direction = 45; $(13_10)	speed = Player_speed;$(13_10)	image_speed = imagesdp;$(13_10)	sprite_index = spr_Player_right_t;$(13_10)	}$(13_10)$(13_10)	}$(13_10)} $(13_10)$(13_10)if (!place_meeting(x - collisionspd,y - collisionspd,wall)&&!place_meeting(x - collisionspd,y- collisionspd, movewall)&&!place_meeting(x - collisionspd,y- collisionspd, movewallh)&&!place_meeting(x - collisionspd,y- collisionspd,burnobj)) $(13_10)$(13_10)$(13_10){ if (keyboard_check(vk_left)&& keyboard_check(vk_up))$(13_10)$(13_10){$(13_10) direction = 135; $(13_10) image_speed = imagesdp;$(13_10) speed  = Player_speed;$(13_10) sprite_index = spr_Player_left;$(13_10)$(13_10)	if  keyboard_check(vk_shift)$(13_10)	{$(13_10)	direction = 135; $(13_10)	image_speed = imagesdp;$(13_10)	speed  = Player_speed;$(13_10)	sprite_index = spr_Player_left_t;$(13_10)	}$(13_10)$(13_10)	}$(13_10)}$(13_10)$(13_10)if (!place_meeting(x - collisionspd,y + collisionspd,wall)&&!place_meeting(x - collisionspd,y+ collisionspd, movewall)&&!place_meeting(x - collisionspd,y+ collisionspd, movewallh)&&!place_meeting(x - collisionspd,y+ collisionspd, burnobj)) $(13_10)$(13_10)$(13_10){ if (keyboard_check(vk_left)&& keyboard_check(vk_down))$(13_10)$(13_10){$(13_10) direction = 225; $(13_10) speed  = Player_speed;$(13_10) image_speed = imagesdp;$(13_10) sprite_index = spr_Player_left;$(13_10)$(13_10)	if  keyboard_check(vk_shift)$(13_10)	{$(13_10)	direction = 225; $(13_10)	speed  = Player_speed;$(13_10)	image_speed = imagesdp;$(13_10)	sprite_index = spr_Player_left_t;$(13_10)	}$(13_10)$(13_10)	}$(13_10)}$(13_10)$(13_10)$(13_10)if (!place_meeting(x + collisionspd,y + collisionspd,wall)&&!place_meeting(x + collisionspd,y+ collisionspd, movewall)&&!place_meeting(x + collisionspd,y+ collisionspd, movewallh)&&!place_meeting(x + collisionspd,y+ collisionspd,  burnobj))$(13_10)$(13_10)$(13_10){ if (keyboard_check(vk_right)&& keyboard_check(vk_down))$(13_10)$(13_10){$(13_10) direction = 315; $(13_10) speed  = Player_speed;$(13_10) image_speed = imagesdp;$(13_10) sprite_index = spr_Player_Right;$(13_10)$(13_10)	if  keyboard_check(vk_shift)$(13_10)	{$(13_10) direction = 315;$(13_10) speed  = Player_speed; $(13_10) image_speed = imagesdp;$(13_10) $(13_10) sprite_index = spr_Player_right_t;$(13_10)	}$(13_10)$(13_10)	}$(13_10)}$(13_10)$(13_10)if (keyboard_check_released(vk_up && vk_down && vk_right && vk_left))$(13_10) {$(13_10) speed =0;$(13_10) sprite_index = spr_Player_Idle;$(13_10) image_speed = imagesdp;$(13_10)$(13_10)	if(keyboard_check(vk_space))			$(13_10)	{$(13_10)	speed =0;$(13_10)	sprite_index = spr_Player_Idle;$(13_10)	image_speed = imagesdp;$(13_10)	$(13_10)		$(13_10)	$(13_10)	}$(13_10)}$(13_10)$(13_10)$(13_10)///----------------------------------------------------------------------------------------------------$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)if (keyboard_check(vk_shift) && speed =0) //!keyboard_check(vk_down && vk_left && vk_right && vk_up))$(13_10){$(13_10) speed =0;$(13_10) sprite_index = spr_Player_Idle_t;$(13_10) image_speed = imagesdp;$(13_10)}$(13_10)$(13_10)"
+/// @DnDArgument : "code" "/// Movement$(13_10)$(13_10)Key_right = keyboard_check(vk_right)|| (gamepad_axis_value(0,gp_axislh)<0);$(13_10)Key_left =  - keyboard_check(vk_left)|| (gamepad_axis_value(0,gp_axislh)> 0);$(13_10)Key_up  = - keyboard_check(vk_up)|| (gamepad_axis_value(0,gp_axislv)> 0);$(13_10)Key_down = keyboard_check(vk_down)|| (gamepad_axis_value(0,gp_axislv)< 0);$(13_10)$(13_10)$(13_10)wall = obj_wall;$(13_10)$(13_10)movewall = obj_movebleobj_ver;$(13_10)movewallh = obj_movebleobj_hor;$(13_10)burnobj = obj_burn;$(13_10)$(13_10)depth = -10;$(13_10)$(13_10)$(13_10)//-----------------------------------------------------------------------------------------------------------------------------------$(13_10)$(13_10)$(13_10)$(13_10)//-----------------------------------------------------------------------------------------------------------------------------------$(13_10)if (keyboard_check(vk_left))$(13_10){$(13_10)	if  (!place_meeting(x - collisionspd,y,wall)&&!place_meeting(x - collisionspd,y, movewall)&&!place_meeting(x - collisionspd,y, movewallh)&&!place_meeting(x - collisionspd,y, burnobj))$(13_10)	$(13_10)	{$(13_10)	direction = 180; $(13_10)	image_speed = imagesdp;$(13_10)	speed  = Player_speed;$(13_10)	sprite_index = spr_Player_left;$(13_10)$(13_10)	$(13_10)		if  keyboard_check(vk_shift)$(13_10)		{$(13_10)		direction = 180; $(13_10)		speed = Player_speed;$(13_10)		image_speed = imagesdp;$(13_10)		sprite_index = spr_Player_left_t;$(13_10)		}$(13_10)$(13_10)	$(13_10)	}$(13_10)	else$(13_10)	$(13_10)	{ $(13_10)	hspeed = 0;$(13_10)	}$(13_10)} $(13_10)$(13_10)$(13_10)if    (keyboard_check(vk_right))$(13_10){$(13_10)	if(!place_meeting(x + collisionspd,y, wall)&&!place_meeting(x + collisionspd,y, movewall)&&!place_meeting(x + collisionspd,y, movewallh)&&!place_meeting(x + collisionspd,y, burnobj))$(13_10)	$(13_10)	{$(13_10)	direction = 0; $(13_10)	hspeed = 5;$(13_10)	speed = Player_speed;$(13_10)	image_speed = imagesdp;$(13_10)	sprite_index = spr_Player_Right;$(13_10)$(13_10)$(13_10)		if  keyboard_check(vk_shift)$(13_10)		{$(13_10)		direction = 0; $(13_10)		speed = Player_speed;$(13_10)		image_speed = imagesdp;$(13_10)		sprite_index = spr_Player_right_t;$(13_10)		}$(13_10)$(13_10)	}$(13_10)	else$(13_10)	{ hspeed = 0;$(13_10)	$(13_10)	$(13_10)	}$(13_10)} $(13_10)$(13_10)$(13_10)$(13_10)$(13_10)if  (keyboard_check(vk_up)) $(13_10){$(13_10)	if (!place_meeting(x,y - collisionspd,wall) &&!place_meeting(x,y- collisionspd, movewall) &&!place_meeting(x,y- collisionspd, movewallh) &&!place_meeting(x,y- collisionspd, burnobj))$(13_10)	$(13_10)	{$(13_10)	direction = 90; $(13_10)	speed = Player_speed;$(13_10)	image_speed = imagesdp;$(13_10)	sprite_index = spr_Player_up;$(13_10)$(13_10)	$(13_10)		if  keyboard_check(vk_shift)$(13_10)		{$(13_10)		direction = 90; $(13_10)		speed = Player_speed;$(13_10)		image_speed = imagesdp;$(13_10)		sprite_index = spr_Player_up_t;$(13_10)		}$(13_10)$(13_10)}$(13_10) else$(13_10){ $(13_10) vspeed = 0;$(13_10)}$(13_10)}$(13_10)$(13_10)if  (keyboard_check(vk_down)) $(13_10){$(13_10)	if (!place_meeting(x,y + collisionspd,wall) &&!place_meeting(x,y+ collisionspd, movewall) &&!place_meeting(x,y+ collisionspd, movewallh) &&!place_meeting(x,y+ collisionspd, burnobj))$(13_10)	$(13_10)	{$(13_10)	direction = 270; $(13_10)	speed = Player_speed;$(13_10)	image_speed = imagesdp;$(13_10)	sprite_index = spr_Player_Down;$(13_10)	$(13_10)	$(13_10)		if  keyboard_check(vk_shift)$(13_10)		{$(13_10)		direction = 270; $(13_10)		speed = Player_speed;$(13_10)		image_speed = imagesdp;$(13_10)		sprite_index = spr_Player_down_t;$(13_10)		}$(13_10)$(13_10)}$(13_10)else$(13_10){$(13_10)vspeed = 0;$(13_10)}$(13_10)}$(13_10)//-----------------------------------------------------------------------------------------------------------------------------------$(13_10)$(13_10)$(13_10)if (!place_meeting(x + collisionspd,y - collisionspd,wall)&&!place_meeting(x + collisionspd,y- collisionspd, movewall)&&!place_meeting(x + collisionspd,y- collisionspd, movewallh)&&!place_meeting(x + collisionspd,y- collisionspd, burnobj)) $(13_10)$(13_10)$(13_10){ if (keyboard_check(vk_right)&& keyboard_check(vk_up))$(13_10)$(13_10){$(13_10) direction = 45; $(13_10) speed = Player_speed;$(13_10) image_speed = imagesdp;$(13_10) sprite_index = spr_Player_Right;$(13_10)$(13_10)	if  keyboard_check(vk_shift)$(13_10)	{$(13_10)	direction = 45; $(13_10)	speed = Player_speed;$(13_10)	image_speed = imagesdp;$(13_10)	sprite_index = spr_Player_right_t;$(13_10)	}$(13_10)$(13_10)	}$(13_10)} $(13_10)$(13_10)if (!place_meeting(x - collisionspd,y - collisionspd,wall)&&!place_meeting(x - collisionspd,y- collisionspd, movewall)&&!place_meeting(x - collisionspd,y- collisionspd, movewallh)&&!place_meeting(x - collisionspd,y- collisionspd,burnobj)) $(13_10)$(13_10)$(13_10){ $(13_10)$(13_10)if (keyboard_check(vk_left)&& keyboard_check(vk_up))$(13_10)$(13_10){$(13_10) direction = 135; $(13_10) image_speed = imagesdp;$(13_10) speed  = Player_speed;$(13_10) sprite_index = spr_Player_left;$(13_10)$(13_10)	if  keyboard_check(vk_shift)$(13_10)	{$(13_10)	direction = 135; $(13_10)	image_speed = imagesdp;$(13_10)	speed  = Player_speed;$(13_10)	sprite_index = spr_Player_left_t;$(13_10)	$(13_10)	}$(13_10)}$(13_10)}$(13_10)$(13_10)if (!place_meeting(x - collisionspd,y + collisionspd,wall)&&!place_meeting(x - collisionspd,y+ collisionspd, movewall)&&!place_meeting(x - collisionspd,y+ collisionspd, movewallh)&&!place_meeting(x - collisionspd,y+ collisionspd, burnobj)) $(13_10)$(13_10)$(13_10){ if (keyboard_check(vk_left)&& keyboard_check(vk_down))$(13_10)$(13_10){$(13_10) direction = 225; $(13_10) speed  = Player_speed;$(13_10) image_speed = imagesdp;$(13_10) sprite_index = spr_Player_left;$(13_10)$(13_10)	if  keyboard_check(vk_shift)$(13_10)	{$(13_10)	direction = 225; $(13_10)	speed  = Player_speed;$(13_10)	image_speed = imagesdp;$(13_10)	sprite_index = spr_Player_left_t;$(13_10)	}$(13_10)}$(13_10)	$(13_10)}$(13_10)$(13_10)$(13_10)if (!place_meeting(x + collisionspd,y + collisionspd,wall)&&!place_meeting(x + collisionspd,y+ collisionspd, movewall)&&!place_meeting(x + collisionspd,y+ collisionspd, movewallh)&&!place_meeting(x + collisionspd,y+ collisionspd,  burnobj))$(13_10)$(13_10)$(13_10){ $(13_10)if (keyboard_check(vk_right)&& keyboard_check(vk_down))$(13_10)$(13_10){$(13_10) direction = 315; $(13_10) speed  = Player_speed;$(13_10) image_speed = imagesdp;$(13_10) sprite_index = spr_Player_Right;$(13_10)$(13_10)	if  keyboard_check(vk_shift)$(13_10)	{$(13_10) direction = 315;$(13_10) speed  = Player_speed; $(13_10) image_speed = imagesdp;$(13_10) $(13_10) sprite_index = spr_Player_right_t;$(13_10)	}$(13_10)}$(13_10)	$(13_10)}$(13_10)$(13_10)if (keyboard_check_released(vk_up && vk_down && vk_right && vk_left))$(13_10) {$(13_10) speed =0;$(13_10) sprite_index = spr_Player_Idle;$(13_10) image_speed = imagesdp;$(13_10)$(13_10)	if(keyboard_check(vk_space))			$(13_10)	{$(13_10)	speed =0;$(13_10)	sprite_index = spr_Player_Idle;$(13_10)	image_speed = imagesdp;$(13_10)	$(13_10)		$(13_10)	$(13_10)	}$(13_10)$(13_10)}$(13_10)$(13_10)///----------------------------------------------------------------------------------------------------$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)if (keyboard_check(vk_shift) && speed =0) //!keyboard_check(vk_down && vk_left && vk_right && vk_up))$(13_10){$(13_10) speed =0;$(13_10) sprite_index = spr_Player_Idle_t;$(13_10) image_speed = imagesdp;$(13_10)}$(13_10)$(13_10)"
 /// Movement
 
 Key_right = keyboard_check(vk_right)|| (gamepad_axis_value(0,gp_axislh)<0);
@@ -16,6 +16,7 @@ movewall = obj_movebleobj_ver;
 movewallh = obj_movebleobj_hor;
 burnobj = obj_burn;
 
+depth = -10;
 
 
 //-----------------------------------------------------------------------------------------------------------------------------------
@@ -42,7 +43,13 @@ if (keyboard_check(vk_left))
 		sprite_index = spr_Player_left_t;
 		}
 
-	}else{ hspeed = 0;}
+	
+	}
+	else
+	
+	{ 
+	hspeed = 0;
+	}
 } 
 
 
@@ -66,15 +73,20 @@ if    (keyboard_check(vk_right))
 		sprite_index = spr_Player_right_t;
 		}
 
-	}else{ hspeed = 0;}
+	}
+	else
+	{ hspeed = 0;
+	
+	
+	}
 } 
 
 
 
 
-if  (!place_meeting(x,y - collisionspd,wall)&&!place_meeting(x,y- collisionspd, movewall)&&!place_meeting(x,y- collisionspd, movewallh)&&!place_meeting(x,y- collisionspd, burnobj))
+if  (keyboard_check(vk_up)) 
 {
-	if (keyboard_check(vk_up))
+	if (!place_meeting(x,y - collisionspd,wall) &&!place_meeting(x,y- collisionspd, movewall) &&!place_meeting(x,y- collisionspd, movewallh) &&!place_meeting(x,y- collisionspd, burnobj))
 	
 	{
 	direction = 90; 
@@ -91,12 +103,16 @@ if  (!place_meeting(x,y - collisionspd,wall)&&!place_meeting(x,y- collisionspd, 
 		sprite_index = spr_Player_up_t;
 		}
 
-	}
-} else{ vspeed = 0;}
+}
+ else
+{ 
+ vspeed = 0;
+}
+}
 
-if  (!place_meeting(x,y + collisionspd,wall)&&!place_meeting(x,y+ collisionspd, movewall)&&!place_meeting(x,y+ collisionspd, movewallh)&&!place_meeting(x,y+ collisionspd, burnobj))
+if  (keyboard_check(vk_down)) 
 {
-	if (keyboard_check(vk_down))
+	if (!place_meeting(x,y + collisionspd,wall) &&!place_meeting(x,y+ collisionspd, movewall) &&!place_meeting(x,y+ collisionspd, movewallh) &&!place_meeting(x,y+ collisionspd, burnobj))
 	
 	{
 	direction = 270; 
@@ -113,8 +129,12 @@ if  (!place_meeting(x,y + collisionspd,wall)&&!place_meeting(x,y+ collisionspd, 
 		sprite_index = spr_Player_down_t;
 		}
 
-	}
-}else{ vspeed = 0;}
+}
+else
+{
+vspeed = 0;
+}
+}
 //-----------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -143,7 +163,9 @@ if (!place_meeting(x + collisionspd,y - collisionspd,wall)&&!place_meeting(x + c
 if (!place_meeting(x - collisionspd,y - collisionspd,wall)&&!place_meeting(x - collisionspd,y- collisionspd, movewall)&&!place_meeting(x - collisionspd,y- collisionspd, movewallh)&&!place_meeting(x - collisionspd,y- collisionspd,burnobj)) 
 
 
-{ if (keyboard_check(vk_left)&& keyboard_check(vk_up))
+{ 
+
+if (keyboard_check(vk_left)&& keyboard_check(vk_up))
 
 {
  direction = 135; 
@@ -157,9 +179,9 @@ if (!place_meeting(x - collisionspd,y - collisionspd,wall)&&!place_meeting(x - c
 	image_speed = imagesdp;
 	speed  = Player_speed;
 	sprite_index = spr_Player_left_t;
+	
 	}
-
-	}
+}
 }
 
 if (!place_meeting(x - collisionspd,y + collisionspd,wall)&&!place_meeting(x - collisionspd,y+ collisionspd, movewall)&&!place_meeting(x - collisionspd,y+ collisionspd, movewallh)&&!place_meeting(x - collisionspd,y+ collisionspd, burnobj)) 
@@ -180,15 +202,16 @@ if (!place_meeting(x - collisionspd,y + collisionspd,wall)&&!place_meeting(x - c
 	image_speed = imagesdp;
 	sprite_index = spr_Player_left_t;
 	}
-
-	}
+}
+	
 }
 
 
 if (!place_meeting(x + collisionspd,y + collisionspd,wall)&&!place_meeting(x + collisionspd,y+ collisionspd, movewall)&&!place_meeting(x + collisionspd,y+ collisionspd, movewallh)&&!place_meeting(x + collisionspd,y+ collisionspd,  burnobj))
 
 
-{ if (keyboard_check(vk_right)&& keyboard_check(vk_down))
+{ 
+if (keyboard_check(vk_right)&& keyboard_check(vk_down))
 
 {
  direction = 315; 
@@ -204,8 +227,8 @@ if (!place_meeting(x + collisionspd,y + collisionspd,wall)&&!place_meeting(x + c
  
  sprite_index = spr_Player_right_t;
 	}
-
-	}
+}
+	
 }
 
 if (keyboard_check_released(vk_up && vk_down && vk_right && vk_left))
@@ -223,8 +246,8 @@ if (keyboard_check_released(vk_up && vk_down && vk_right && vk_left))
 		
 	
 	}
-}
 
+}
 
 ///----------------------------------------------------------------------------------------------------
 
@@ -250,8 +273,9 @@ if(distance_to_object(obj_baby) <= 20)
 	/// @DnDVersion : 1
 	/// @DnDHash : 06F3FD0B
 	/// @DnDParent : 7C4F7147
+	/// @DnDArgument : "key" "vk_alt"
 	var l06F3FD0B_0;
-	l06F3FD0B_0 = keyboard_check(vk_space);
+	l06F3FD0B_0 = keyboard_check(vk_alt);
 	if (l06F3FD0B_0)
 	{
 		/// @DnDAction : YoYo Games.Common.Variable
@@ -300,6 +324,13 @@ if(distance_to_object(obj_baby) <= 20)
 			/// @DnDArgument : "objectid" "obj_button"
 			/// @DnDSaveInfo : "objectid" "49f8cef4-297a-4daa-9c5c-179caf8aaf56"
 			instance_create_layer(obj_player1.x-32, obj_player1.y-128, "Instances", obj_button);
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 552E58BF
+			/// @DnDParent : 1991B0B1
+			/// @DnDArgument : "var" "global.carry"
+			global.carry = 0;
 		}
 	}
 
