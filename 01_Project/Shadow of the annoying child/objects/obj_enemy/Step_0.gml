@@ -1,3 +1,71 @@
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 5638C6C0
+/// @DnDArgument : "code" "//Sprite$(13_10)$(13_10)if (direction  > 315 ||  (direction < 45))$(13_10)$(13_10)$(13_10)sprite_index = spr_Enemy_right;$(13_10)	{ $(13_10)	if enemysdp < 0$(13_10)	{ $(13_10)	sprite_index = spr_Enemy_up;$(13_10)	}$(13_10)	}$(13_10)$(13_10)$(13_10)if (direction  >= 45 && (direction < 135))$(13_10)$(13_10){ $(13_10)sprite_index = spr_Enemy_up;$(13_10)$(13_10)	if enemysdp < 0$(13_10)	{ $(13_10)	sprite_index = spr_Enemy_down;$(13_10)	}$(13_10)$(13_10)$(13_10)}$(13_10)$(13_10)$(13_10)if (direction  >= 135 && (direction < 225))$(13_10)$(13_10){ sprite_index = spr_Enemy_up;$(13_10)$(13_10)	if enemysdp < 0$(13_10)	{ $(13_10)	sprite_index = spr_Enemy_right;$(13_10)	}$(13_10)$(13_10)$(13_10)}$(13_10)$(13_10)$(13_10)if (direction  >= 255 && (direction < 315))$(13_10)$(13_10){ $(13_10)$(13_10)sprite_index = spr_Enemy_down;$(13_10)$(13_10)	if enemysdp < 0$(13_10)	{ $(13_10)	sprite_index = spr_Enemy_up;$(13_10)	}$(13_10)$(13_10)$(13_10)}$(13_10)$(13_10)//--------------AGRO-----------------------------------------------$(13_10)$(13_10)$(13_10)$(13_10)	if global.enemyagro > 1$(13_10)	{ $(13_10)	enemysdp = enemysdp*global.enemyagro$(13_10)	}$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)"
+//Sprite
+
+if (direction  > 315 ||  (direction < 45))
+
+
+sprite_index = spr_Enemy_right;
+	{ 
+	if enemysdp < 0
+	{ 
+	sprite_index = spr_Enemy_up;
+	}
+	}
+
+
+if (direction  >= 45 && (direction < 135))
+
+{ 
+sprite_index = spr_Enemy_up;
+
+	if enemysdp < 0
+	{ 
+	sprite_index = spr_Enemy_down;
+	}
+
+
+}
+
+
+if (direction  >= 135 && (direction < 225))
+
+{ sprite_index = spr_Enemy_up;
+
+	if enemysdp < 0
+	{ 
+	sprite_index = spr_Enemy_right;
+	}
+
+
+}
+
+
+if (direction  >= 255 && (direction < 315))
+
+{ 
+
+sprite_index = spr_Enemy_down;
+
+	if enemysdp < 0
+	{ 
+	sprite_index = spr_Enemy_up;
+	}
+
+
+}
+
+//--------------AGRO-----------------------------------------------
+
+
+
+	if global.enemyagro > 1
+	{ 
+	enemysdp = enemysdp*global.enemyagro
+	}
+
 /// @DnDAction : YoYo Games.Paths.Start_Path
 /// @DnDVersion : 1.1
 /// @DnDHash : 13B1389F

@@ -20,8 +20,11 @@ imagesdp = 1.4;
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 0E6BAB35
+/// @DnDInput : 2
 /// @DnDArgument : "var" "carry"
+/// @DnDArgument : "var_1" "enemyagro"
 global.carry = 0;
+global.enemyagro = 0;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1
