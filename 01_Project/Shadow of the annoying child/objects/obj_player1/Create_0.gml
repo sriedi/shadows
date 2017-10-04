@@ -22,13 +22,15 @@ imagesdp = 1.4;
 /// @DnDHash : 0E6BAB35
 /// @DnDInput : 4
 /// @DnDArgument : "value_2" "60"
+/// @DnDArgument : "value_3" "10"
 /// @DnDArgument : "var" "carry"
 /// @DnDArgument : "var_1" "enemyagro"
 /// @DnDArgument : "var_2" "carrycooldown"
+/// @DnDArgument : "var_3" "ak_fuel"
 global.carry = 0;
 global.enemyagro = 0;
 global.carrycooldown = 60;
-global.variable = 0;
+global.ak_fuel = 10;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1
