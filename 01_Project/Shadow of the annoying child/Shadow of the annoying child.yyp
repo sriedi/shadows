@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "10a74da7-b19a-498d-87c3-a19343067629",
+            "Value": {
+                "id": "e809ce2b-dbf5-48f2-a131-6ea318d1e1b0",
+                "resourcePath": "sprites\\spr_Tileset_Wood\\spr_Tileset_Wood.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "15d991c5-5cf8-4a81-9dea-971f613cf15e",
             "Value": {
                 "id": "16c194e2-bad0-47e5-a675-01c7c3ec5082",
@@ -540,6 +548,14 @@
                 "id": "803dcd6c-6e8f-4a61-a4c0-7183794fac7d",
                 "resourcePath": "sprites\\spr_ranke\\spr_ranke.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ba679cd6-8b31-4cef-a680-e8dddd4dabd3",
+            "Value": {
+                "id": "3687dfb2-930a-427f-b1d6-978a35a6c908",
+                "resourcePath": "tilesets\\tileset_woods\\tileset_woods.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
