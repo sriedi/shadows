@@ -1,6 +1,6 @@
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 2A1C2CEB
-/// @DnDArgument : "expr" "30"
+/// @DnDHash : 6161A3EA
+/// @DnDArgument : "value" "30"
 /// @DnDArgument : "var" "fear"
-fear = 30;
+global.fear = 30;
