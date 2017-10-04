@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 40DA4C18
-/// @DnDInput : 6
+/// @DnDInput : 7
 /// @DnDArgument : "expr" "10"
 /// @DnDArgument : "expr_1" "1"
 /// @DnDArgument : "expr_3" "-1"
@@ -12,12 +12,14 @@
 /// @DnDArgument : "var_3" "fear_blead"
 /// @DnDArgument : "var_4" "fearspeed"
 /// @DnDArgument : "var_5" "meeting"
+/// @DnDArgument : "var_6" "enemycarry"
 enemylife = 10;
 enemysdp = 1;
 enemysleeping = 0;
 fear_blead = -1;
 fearspeed = -5;
 meeting = 0;
+enemycarry = 0;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
