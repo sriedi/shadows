@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "3bb55201-2b66-4b62-9be8-5cc8d89d0d15",
+            "Value": {
+                "id": "43a7acf6-64ef-4a59-9dcc-a0c475f25407",
+                "resourcePath": "sprites\\spr_woodlog_1\\spr_woodlog_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3bf7bbf1-bee5-4c49-8106-bc34b1d9cf07",
             "Value": {
                 "id": "dac68c24-cd76-4f8f-acab-ed9e7eb39441",
@@ -447,6 +455,14 @@
             }
         },
         {
+            "Key": "897a5ef1-bb3e-45a2-bb4b-5646efe270be",
+            "Value": {
+                "id": "5625ee33-cc95-4bba-a823-7588d6820b3b",
+                "resourcePath": "sprites\\spr_mushroom_red\\spr_mushroom_red.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8a3710e4-eb52-4c5b-9fe3-3fd0e6bf7242",
             "Value": {
                 "id": "93af13f6-0faf-4282-aa5b-dc54d51a5e94",
@@ -475,6 +491,14 @@
             "Value": {
                 "id": "e2942dc4-a6f5-4b09-a2a8-0614506c9a10",
                 "resourcePath": "sprites\\spr_burn\\spr_burn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9cfe5916-9ec1-4fa2-b006-bbf183801f91",
+            "Value": {
+                "id": "a2b1fe3c-aa43-4e29-84d7-3b40522d12be",
+                "resourcePath": "sprites\\spr_mushroom_blue\\spr_mushroom_blue.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -516,6 +540,14 @@
                 "id": "7cf4d7c7-738d-49ea-9324-d89d4a88d229",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a940d427-749f-4c41-a22c-b8f993773e7e",
+            "Value": {
+                "id": "f1bf4aea-2726-4046-bd87-b17dc7a1f8ce",
+                "resourcePath": "sprites\\spr_woodlog2\\spr_woodlog2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -596,6 +628,14 @@
                 "id": "2c15f413-cd01-4174-abf5-8876fd357885",
                 "resourcePath": "objects\\obj_Tourch\\obj_Tourch.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ca995d08-c4df-47f4-83f0-e271addd4b94",
+            "Value": {
+                "id": "841d2dd0-d1df-4e47-982e-c8aeacf4512f",
+                "resourcePath": "sprites\\spr_rock_2\\spr_rock_2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
