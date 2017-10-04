@@ -1,0 +1,27 @@
+Adobe After Effects v14.2.1 Windows 64 render log for project “shadows_main.aep”
+
+Rendering started on 04/10/2017 at 15:39:44
+
+  04/10/2017 15:39:44: Starting composition “Run_Up_Push”.
+
+  Output To: C:\Users\sebi-\Desktop\GameDesign\03_Projects\GA0117_Shadows\XX_GIT\shadows\03_Animation\_Export\Run_Up_Push\Run_Up_Push_[#####].png    04/10/2017 15:39:44: Finished composition “Run_Up_Push”.
+
+
+  04/10/2017 15:39:44: Starting composition “Run_Right_Push”.
+
+  Output To: C:\Users\sebi-\Desktop\GameDesign\03_Projects\GA0117_Shadows\XX_GIT\shadows\03_Animation\_Export\Run_Right_Push\Run_Right_Push_[#####].png    04/10/2017 15:39:46: Finished composition “Run_Right_Push”.
+
+
+  04/10/2017 15:39:46: Starting composition “Run_Left_Push”.
+
+  Output To: C:\Users\sebi-\Desktop\GameDesign\03_Projects\GA0117_Shadows\XX_GIT\shadows\03_Animation\_Export\Run_Left_Push\Run_Left_Push_[#####].png    04/10/2017 15:39:47: Finished composition “Run_Left_Push”.
+
+
+  04/10/2017 15:39:47: Starting composition “Run_Down_Push”.
+
+  Output To: C:\Users\sebi-\Desktop\GameDesign\03_Projects\GA0117_Shadows\XX_GIT\shadows\03_Animation\_Export\Run_Down_Push\Run_Down_Push_[#####].png    04/10/2017 15:39:48: Finished composition “Run_Down_Push”.
+
+
+  Total Time Elapsed: 4 Seconds
+Log closed on 04/10/2017 at 15:39:48
+
