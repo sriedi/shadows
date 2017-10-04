@@ -20,17 +20,20 @@ imagesdp = 1.4;
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 0E6BAB35
-/// @DnDInput : 4
+/// @DnDInput : 6
 /// @DnDArgument : "value_2" "60"
 /// @DnDArgument : "value_3" "10"
 /// @DnDArgument : "var" "carry"
 /// @DnDArgument : "var_1" "enemyagro"
 /// @DnDArgument : "var_2" "carrycooldown"
 /// @DnDArgument : "var_3" "ak_fuel"
+/// @DnDArgument : "var_4" "Meeting"
 global.carry = 0;
 global.enemyagro = 0;
 global.carrycooldown = 60;
 global.ak_fuel = 10;
+global.Meeting = 0;
+global.variable = 0;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1

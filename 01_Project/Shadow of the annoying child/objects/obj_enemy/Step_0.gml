@@ -69,70 +69,99 @@ sprite_index = spr_Enemy_down;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 7F8176FF
-/// @DnDArgument : "code" "epy = instance_nearest(obj_player1.x,obj_player1.y,obj_enemy).y;$(13_10)epx = instance_nearest(obj_player1.x,obj_player1.y,obj_enemy).x;$(13_10)$(13_10)eby = instance_nearest(obj_baby.x,obj_baby.y,obj_enemy).y;$(13_10)ebx = instance_nearest(obj_baby.x,obj_baby.y,obj_enemy).x;$(13_10)$(13_10)baby = point_direction(obj_enemy.x,obj_enemy.y,obj_baby.x,obj_baby.y);$(13_10)$(13_10)player = point_direction(obj_enemy.x,obj_enemy.y,obj_player1.x,obj_player1.y);$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)if (global.Awake = 1)$(13_10)$(13_10)	{ $(13_10)	direction =baby;$(13_10)	speed = enemysdp;$(13_10)$(13_10)	if (global.fear >= 0)$(13_10)	{ $(13_10)	direction =baby;$(13_10)	speed = enemysdp;$(13_10)	}$(13_10)	else$(13_10)	{$(13_10)	speed = fearspeed;$(13_10)	direction = player;$(13_10)	}$(13_10)$(13_10)$(13_10)}$(13_10)$(13_10)else$(13_10){$(13_10)point_direction(obj_baby.x,obj_baby.y,obj_enemy.x,obj_enemy.y);$(13_10)sprite_index = spr_Enemy_idle;$(13_10)speed = 0;$(13_10)$(13_10)}$(13_10)$(13_10)$(13_10)if (point_distance(ebx,eby,obj_baby.x,obj_baby.y) < 10)$(13_10)$(13_10)	{$(13_10)	$(13_10)	speed = fearspeed;$(13_10)	direction = player;$(13_10)$(13_10)$(13_10)}$(13_10)if (point_distance(epx,epy,obj_player1.x,obj_player1.y) < 100)$(13_10)$(13_10)	{$(13_10)	$(13_10)	variable_global_set ("Awake", 1);$(13_10)$(13_10)}$(13_10)$(13_10)if (distance_to_object(obj_player1) > 200)$(13_10)$(13_10)	{$(13_10)	$(13_10)   variable_global_set ("global.fear", 0)$(13_10)$(13_10)}"
-epy = instance_nearest(obj_player1.x,obj_player1.y,obj_enemy).y;
-epx = instance_nearest(obj_player1.x,obj_player1.y,obj_enemy).x;
+/// @DnDArgument : "code" "$(13_10)ep = instance_nearest(obj_player1.x,obj_player1.y,obj_enemy);$(13_10)eb = instance_nearest(obj_baby.x,obj_baby.y,obj_enemy);$(13_10)$(13_10)eby = instance_nearest(obj_baby.x,obj_baby.y,obj_enemy).y;$(13_10)ebx = instance_nearest(obj_baby.x,obj_baby.y,obj_enemy).x;$(13_10)$(13_10)baby = point_direction(eb.x,eb.y,obj_baby.x,obj_baby.y);$(13_10)player = point_direction(ep.x,ep.y,obj_player1.x,obj_player1.y);$(13_10)$(13_10)$(13_10)if (global.carry = 1)$(13_10){ $(13_10)	  global.Awake = 0;$(13_10)	  speed = 0$(13_10)	  move_towards_point(obj_baby.x,obj_baby.y,0) $(13_10)	}else{$(13_10)	$(13_10)	$(13_10)	move_towards_point(obj_baby.x,obj_baby.y,enemysdp)$(13_10)}$(13_10)if keyboard_check(vk_shift)$(13_10)$(13_10)$(13_10)$(13_10)$(13_10){global.carry = 0}$(13_10) $(13_10)$(13_10) $(13_10)$(13_10) $(13_10) $(13_10) if (meeting >=1)$(13_10)	{ $(13_10)	$(13_10)	$(13_10)if (global.Awake = 1)$(13_10)$(13_10)	{ $(13_10)	$(13_10)	$(13_10)$(13_10)$(13_10)	 $(13_10)	$(13_10)	if (global.fear >= 0)$(13_10)	{ $(13_10)	move_towards_point(obj_baby.x,obj_baby.y,enemysdp) $(13_10)	$(13_10)	}$(13_10)	else$(13_10)	{$(13_10)	move_towards_point(obj_baby.x,obj_baby.y,fearspeed)$(13_10)	direction = player;$(13_10)	}$(13_10)}$(13_10)$(13_10)}$(13_10)$(13_10)else$(13_10){$(13_10)direction = player;$(13_10)sprite_index = spr_Enemy_idle;$(13_10)speed = 0;$(13_10)$(13_10)}$(13_10)$(13_10)$(13_10)if (distance_to_object(obj_baby) < 10)$(13_10)$(13_10)	{$(13_10)	obj_baby.x = eb.x;$(13_10)	obj_baby.y = eb.y;$(13_10)	speed = -1;$(13_10)	direction = player;$(13_10)$(13_10)$(13_10)}$(13_10)if (distance_to_object(obj_player1) < 100)$(13_10)$(13_10)	{$(13_10)	meeting = 1;$(13_10)	global.Awake = 1;$(13_10)$(13_10)}$(13_10)	$(13_10)$(13_10)if (distance_to_object(obj_player1) > 200)$(13_10)$(13_10)	{$(13_10)	$(13_10)   variable_global_set ("fear", 0)$(13_10)$(13_10)}"
+
+ep = instance_nearest(obj_player1.x,obj_player1.y,obj_enemy);
+eb = instance_nearest(obj_baby.x,obj_baby.y,obj_enemy);
 
 eby = instance_nearest(obj_baby.x,obj_baby.y,obj_enemy).y;
 ebx = instance_nearest(obj_baby.x,obj_baby.y,obj_enemy).x;
 
-baby = point_direction(obj_enemy.x,obj_enemy.y,obj_baby.x,obj_baby.y);
-
-player = point_direction(obj_enemy.x,obj_enemy.y,obj_player1.x,obj_player1.y);
-
+baby = point_direction(eb.x,eb.y,obj_baby.x,obj_baby.y);
+player = point_direction(ep.x,ep.y,obj_player1.x,obj_player1.y);
 
 
+if (global.carry = 1)
+{ 
+	  global.Awake = 0;
+	  speed = 0
+	  move_towards_point(obj_baby.x,obj_baby.y,0) 
+	}else{
+	
+	
+	move_towards_point(obj_baby.x,obj_baby.y,enemysdp)
+}
+if keyboard_check(vk_shift)
 
+
+
+
+{global.carry = 0}
+ 
+
+ 
+
+ 
+ 
+ if (meeting >=1)
+	{ 
+	
+	
 if (global.Awake = 1)
 
 	{ 
-	direction =baby;
-	speed = enemysdp;
+	
+	
 
+
+	 
+	
 	if (global.fear >= 0)
 	{ 
-	direction =baby;
-	speed = enemysdp;
+	move_towards_point(obj_baby.x,obj_baby.y,enemysdp) 
+	
 	}
 	else
 	{
-	speed = fearspeed;
+	move_towards_point(obj_baby.x,obj_baby.y,fearspeed)
 	direction = player;
 	}
-
+}
 
 }
 
 else
 {
-point_direction(obj_baby.x,obj_baby.y,obj_enemy.x,obj_enemy.y);
+direction = player;
 sprite_index = spr_Enemy_idle;
 speed = 0;
 
 }
 
 
-if (point_distance(ebx,eby,obj_baby.x,obj_baby.y) < 10)
+if (distance_to_object(obj_baby) < 10)
 
 	{
-	
-	speed = fearspeed;
+	obj_baby.x = eb.x;
+	obj_baby.y = eb.y;
+	speed = -1;
 	direction = player;
 
 
 }
-if (point_distance(epx,epy,obj_player1.x,obj_player1.y) < 100)
+if (distance_to_object(obj_player1) < 100)
 
 	{
-	
-	variable_global_set ("Awake", 1);
+	meeting = 1;
+	global.Awake = 1;
 
 }
+	
 
 if (distance_to_object(obj_player1) > 200)
 
 	{
 	
-   variable_global_set ("global.fear", 0)
+   variable_global_set ("fear", 0)
 
 }
