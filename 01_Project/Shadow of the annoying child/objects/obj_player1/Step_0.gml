@@ -263,6 +263,17 @@ if (keyboard_check(vk_shift) && speed =0) //!keyboard_check(vk_down && vk_left &
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 530B4085
+/// @DnDArgument : "var" "distance_to_object(obj_baby)"
+/// @DnDArgument : "op" "2"
+/// @DnDArgument : "value" "500"
+if(distance_to_object(obj_baby) > 500)
+{
+
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 7C4F7147
 /// @DnDArgument : "var" "distance_to_object(obj_baby)"
 /// @DnDArgument : "op" "3"
