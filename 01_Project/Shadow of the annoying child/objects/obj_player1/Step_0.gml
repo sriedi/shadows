@@ -324,6 +324,14 @@ if(distance_to_object(obj_baby) <= 10)
 		/// @DnDApplyTo : 70eb2941-6fd6-4804-91c8-931d5b81714f
 		/// @DnDParent : 06F3FD0B
 		with(obj_shiny) instance_destroy();
+	
+		/// @DnDAction : YoYo Games.Audio.Stop_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 781B7C3E
+		/// @DnDParent : 06F3FD0B
+		/// @DnDArgument : "soundid" "sou_baby_cry"
+		/// @DnDSaveInfo : "soundid" "0289e313-9ddb-45bb-96e5-d110ce0f2e22"
+		audio_stop_sound(sou_baby_cry);
 	}
 
 	/// @DnDAction : YoYo Games.Common.Else
