@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0289e313-9ddb-45bb-96e5-d110ce0f2e22",
+            "Value": {
+                "id": "7027ddbf-5d73-445e-b2ce-a5fbe9ef58ea",
+                "resourcePath": "sounds\\sou_baby_cry\\sou_baby_cry.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "09f38509-1fd8-4201-afd0-70b5f60f43d0",
             "Value": {
                 "id": "052459fc-e618-4276-b0ed-d66e3cdd1def",
@@ -407,6 +415,14 @@
             }
         },
         {
+            "Key": "75713228-b2bb-44a3-8f3b-3c04b24009a2",
+            "Value": {
+                "id": "904811c7-a6b5-4f93-b93e-d84ca30a2bf2",
+                "resourcePath": "sounds\\musik\\musik.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "7892da58-f31d-4254-b857-db138f971760",
             "Value": {
                 "id": "c7d1a66c-8cfd-4039-bcea-c67b0761ddab",
@@ -452,6 +468,14 @@
                 "id": "0de95d4b-7118-4a84-9cdc-bb04e90e9f0e",
                 "resourcePath": "sprites\\spr_Baby\\spr_Baby.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8131266a-daf6-4fe6-8735-3a9955f5ed1d",
+            "Value": {
+                "id": "e6b3840d-7c3d-4c8a-917c-d28a3e07d6e9",
+                "resourcePath": "sounds\\sound2\\sound2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
