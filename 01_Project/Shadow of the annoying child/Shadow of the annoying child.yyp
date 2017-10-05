@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "197b7db7-9bb8-434b-9510-68a08d96f67f",
+            "Value": {
+                "id": "62fa3a13-a5f9-40fe-97c7-854708d540ff",
+                "resourcePath": "sprites\\spr_flower2\\spr_flower2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1bac6d49-51f1-4644-ba76-5dee25459e41",
             "Value": {
                 "id": "dfe335d0-ec2a-4816-99e2-5d192714853e",
@@ -228,6 +236,14 @@
                 "id": "e15b1de1-bb96-4a79-8ca4-26ba156d58c3",
                 "resourcePath": "views\\3d283a38-4f68-4343-be00-a49760a98eb3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3e5d7679-7de7-4e35-912b-5666b1b92012",
+            "Value": {
+                "id": "8873ec3a-a0af-4302-8719-b8084c7ccde4",
+                "resourcePath": "sprites\\spr_grass1\\spr_grass1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -415,6 +431,14 @@
             }
         },
         {
+            "Key": "74e0a5c9-fc6c-4184-b914-12d769a4793b",
+            "Value": {
+                "id": "08e1971d-ff36-44ca-8ef2-67c3ea7f126a",
+                "resourcePath": "sprites\\spr_flower1\\spr_flower1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "75713228-b2bb-44a3-8f3b-3c04b24009a2",
             "Value": {
                 "id": "904811c7-a6b5-4f93-b93e-d84ca30a2bf2",
@@ -543,6 +567,14 @@
             }
         },
         {
+            "Key": "91de6c6a-176a-4f50-9b3f-a1971b338550",
+            "Value": {
+                "id": "6276f2f8-0a0e-42dd-ba07-0a4818607732",
+                "resourcePath": "sprites\\spr_grass3\\spr_grass3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9cc0848d-35bb-4ad9-8691-1dd1fd61a106",
             "Value": {
                 "id": "e2942dc4-a6f5-4b09-a2a8-0614506c9a10",
@@ -588,6 +620,14 @@
                 "id": "3ee1198d-efc6-47a7-85ed-7805a504ef53",
                 "resourcePath": "fonts\\debug_font\\debug_font.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "a62f8253-b165-4403-969d-b010e60a6593",
+            "Value": {
+                "id": "9ba3bed5-443d-46d9-b354-71937ba0a738",
+                "resourcePath": "sprites\\spr_bush\\spr_bush.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -660,6 +700,14 @@
                 "id": "025f161c-f754-4f70-827d-d73ec3163e6a",
                 "resourcePath": "objects\\obj_matte\\obj_matte.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c2b45ccd-1c28-422a-a408-7b63d2bd4000",
+            "Value": {
+                "id": "22860375-1d79-49f9-aa34-4f5372433f92",
+                "resourcePath": "sprites\\spr_grass2\\spr_grass2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
