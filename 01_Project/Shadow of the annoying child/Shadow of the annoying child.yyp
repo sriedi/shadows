@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0ab756c1-2ea4-4f57-89cf-8cae3a67476f",
+            "Value": {
+                "id": "fcff384b-c713-4b0b-82bf-170b78ff81c3",
+                "resourcePath": "sprites\\spr_button_light\\spr_button_light.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0bcd3b02-f7a4-43a7-94a8-2d6cbbbf2666",
             "Value": {
                 "id": "583930bd-8db6-4157-8912-b947495905dc",

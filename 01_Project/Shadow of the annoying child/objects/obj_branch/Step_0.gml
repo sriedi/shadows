@@ -18,16 +18,11 @@ if(distance_to_object(obj_player1) <= 20)
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 49CFC5C4
-		/// @DnDInput : 2
 		/// @DnDParent : 70AC1C8E
 		/// @DnDArgument : "expr" "+3"
 		/// @DnDArgument : "expr_relative" "1"
-		/// @DnDArgument : "expr_1" "0.2"
-		/// @DnDArgument : "expr_relative_1" "1"
-		/// @DnDArgument : "var" "global.fuel"
-		/// @DnDArgument : "var_1" "global.enemyagro"
-		global.fuel += +3;
-		global.enemyagro += 0.2;
+		/// @DnDArgument : "var" "global.ak_fuel"
+		global.ak_fuel += +3;
 	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1

@@ -294,8 +294,8 @@ if (keyboard_check(vk_shift) && speed =0) //!keyboard_check(vk_down && vk_left &
 /// @DnDHash : 7C4F7147
 /// @DnDArgument : "var" "distance_to_object(obj_baby)"
 /// @DnDArgument : "op" "3"
-/// @DnDArgument : "value" "20"
-if(distance_to_object(obj_baby) <= 20)
+/// @DnDArgument : "value" "10"
+if(distance_to_object(obj_baby) <= 10)
 {
 	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 	/// @DnDVersion : 1
