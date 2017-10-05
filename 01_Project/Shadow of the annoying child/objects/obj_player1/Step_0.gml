@@ -327,9 +327,9 @@ if(distance_to_object(obj_baby) <= 20)
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1
 		/// @DnDHash : 05FF173B
-		/// @DnDApplyTo : 49f8cef4-297a-4daa-9c5c-179caf8aaf56
+		/// @DnDApplyTo : 70eb2941-6fd6-4804-91c8-931d5b81714f
 		/// @DnDParent : 06F3FD0B
-		with(obj_button) instance_destroy();
+		with(obj_shiny) instance_destroy();
 	}
 
 	/// @DnDAction : YoYo Games.Common.Else
@@ -355,9 +355,9 @@ if(distance_to_object(obj_baby) <= 20)
 			/// @DnDParent : 1991B0B1
 			/// @DnDArgument : "xpos" "obj_player1.x-32"
 			/// @DnDArgument : "ypos" "obj_player1.y-128"
-			/// @DnDArgument : "objectid" "obj_button"
-			/// @DnDSaveInfo : "objectid" "49f8cef4-297a-4daa-9c5c-179caf8aaf56"
-			instance_create_layer(obj_player1.x-32, obj_player1.y-128, "Instances", obj_button);
+			/// @DnDArgument : "objectid" "obj_shiny"
+			/// @DnDSaveInfo : "objectid" "70eb2941-6fd6-4804-91c8-931d5b81714f"
+			instance_create_layer(obj_player1.x-32, obj_player1.y-128, "Instances", obj_shiny);
 		
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
@@ -371,11 +371,11 @@ if(distance_to_object(obj_baby) <= 20)
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 	/// @DnDVersion : 1
 	/// @DnDHash : 58DBCAFF
-	/// @DnDApplyTo : 49f8cef4-297a-4daa-9c5c-179caf8aaf56
+	/// @DnDApplyTo : 70eb2941-6fd6-4804-91c8-931d5b81714f
 	/// @DnDParent : 7C4F7147
 	/// @DnDArgument : "x" "obj_player1.x-32"
 	/// @DnDArgument : "y" "obj_player1.y-128"
-	with(obj_button) {
+	with(obj_shiny) {
 	x = obj_player1.x-32;
 	y = obj_player1.y-128;
 	}

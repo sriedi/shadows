@@ -59,8 +59,9 @@ if(distance_to_object(obj_player1) <= 20)
 		/// @DnDVersion : 1
 		/// @DnDHash : 61E73CE1
 		/// @DnDParent : 2EB4A07B
+		/// @DnDArgument : "key" "vk_alt"
 		var l61E73CE1_0;
-		l61E73CE1_0 = keyboard_check(vk_space);
+		l61E73CE1_0 = keyboard_check(vk_alt);
 		if (l61E73CE1_0)
 		{
 			/// @DnDAction : YoYo Games.Common.If_Variable

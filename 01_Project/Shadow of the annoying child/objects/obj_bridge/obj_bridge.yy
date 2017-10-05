@@ -2,7 +2,7 @@
     "id": "90659116-a092-418f-89e8-312f063d2a83",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_brigde",
+    "name": "obj_bridge",
     "eventList": [
         {
             "id": "1f5db79b-392c-490a-af79-f5346991f350",
