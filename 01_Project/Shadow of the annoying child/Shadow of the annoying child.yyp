@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "23399143-36b2-4d2f-af8d-e5bf2a6a6405",
+            "Value": {
+                "id": "707d6b8c-94c4-4ad5-8021-6ab3eafa8bd7",
+                "resourcePath": "objects\\obj_bridge_position\\obj_bridge_position.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "266f4baa-49fb-4e27-965e-15bc5d6a7b17",
             "Value": {
                 "id": "8817af9a-fd0c-4336-939f-294da5600046",
@@ -484,6 +492,14 @@
                 "id": "8e4adedf-14cf-4e65-9676-ee047869db93",
                 "resourcePath": "sprites\\spr_baby_cray\\spr_baby_cray.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "90659116-a092-418f-89e8-312f063d2a83",
+            "Value": {
+                "id": "07f53b86-3c0c-4e98-acce-95545133bdf3",
+                "resourcePath": "objects\\obj_brigde\\obj_brigde.yy",
+                "resourceType": "GMObject"
             }
         },
         {
