@@ -15,6 +15,8 @@ global.MaxBurningtime = 300;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 2EF1481E
+/// @DnDInput : 2
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "burn"
 burn = 1;
+variable = 0;
