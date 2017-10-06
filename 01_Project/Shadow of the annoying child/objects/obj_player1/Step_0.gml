@@ -392,12 +392,12 @@ else
 /// @DnDHash : 4CB501F7
 /// @DnDArgument : "var" "distance_to_object(obj_baby)"
 /// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "1500"
-if(distance_to_object(obj_baby) >= 1500)
+/// @DnDArgument : "value" "800"
+if(distance_to_object(obj_baby) >= 800)
 {
 	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
-	/// @DnDHash : 6BE2788D
+	/// @DnDHash : 7839C9F6
 	/// @DnDParent : 4CB501F7
 	/// @DnDArgument : "room" "room_endscreen"
 	/// @DnDSaveInfo : "room" "7a457d5c-5ead-4be7-ba73-43c80cf9324b"
