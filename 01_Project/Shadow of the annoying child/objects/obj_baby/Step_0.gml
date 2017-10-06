@@ -6,29 +6,34 @@
 /// @DnDArgument : "value" "500"
 if(distance_to_object(obj_player1) >= 500)
 {
-	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
-	/// @DnDHash : 21BB3392
+	/// @DnDHash : 7497CCF6
 	/// @DnDParent : 6626A2D5
-	/// @DnDArgument : "var" "babycray"
-	if(babycray == 0)
+	/// @DnDArgument : "imageind_relative" "1"
+	/// @DnDArgument : "spriteind" "spr_baby_cray"
+	/// @DnDSaveInfo : "spriteind" "9044138d-26ce-492b-b4fe-c9c8ee33003e"
+	sprite_index = spr_baby_cray;
+	image_index += 0;
+
+	/// @DnDAction : YoYo Games.Audio.If_Audio_Playing
+	/// @DnDVersion : 1
+	/// @DnDHash : 49DFAB86
+	/// @DnDParent : 6626A2D5
+	/// @DnDArgument : "soundid" "sou_baby_cry"
+	/// @DnDArgument : "not" "1"
+	/// @DnDSaveInfo : "soundid" "0289e313-9ddb-45bb-96e5-d110ce0f2e22"
+	var l49DFAB86_0 = sou_baby_cry;
+	if (!audio_is_playing(l49DFAB86_0))
 	{
 		/// @DnDAction : YoYo Games.Audio.Play_Audio
 		/// @DnDVersion : 1
 		/// @DnDHash : 1C0004D2
-		/// @DnDParent : 21BB3392
+		/// @DnDParent : 49DFAB86
 		/// @DnDArgument : "soundid" "sou_baby_cry"
 		/// @DnDArgument : "loop" "1"
 		/// @DnDSaveInfo : "soundid" "0289e313-9ddb-45bb-96e5-d110ce0f2e22"
 		audio_play_sound(sou_baby_cry, 0, 1);
-	
-		/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 4B03D516
-		/// @DnDParent : 21BB3392
-		/// @DnDArgument : "expr" "1"
-		/// @DnDArgument : "var" "babycray"
-		babycray = 1;
 	}
 }
 
@@ -37,8 +42,8 @@ if(distance_to_object(obj_player1) >= 500)
 /// @DnDHash : 3BB9EE32
 /// @DnDArgument : "var" "distance_to_object(obj_enemy)"
 /// @DnDArgument : "op" "3"
-/// @DnDArgument : "value" "30"
-if(distance_to_object(obj_enemy) <= 30)
+/// @DnDArgument : "value" "5"
+if(distance_to_object(obj_enemy) <= 5)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
@@ -63,8 +68,8 @@ if(distance_to_object(obj_enemy) <= 30)
 /// @DnDHash : 084DA18C
 /// @DnDArgument : "var" "distance_to_object(obj_player1)"
 /// @DnDArgument : "op" "3"
-/// @DnDArgument : "value" "30"
-if(distance_to_object(obj_player1) <= 30)
+/// @DnDArgument : "value" "20"
+if(distance_to_object(obj_player1) <= 20)
 {
 	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 	/// @DnDVersion : 1

@@ -2,7 +2,7 @@
     "id": "f3126d5a-7430-4980-82e9-0e346afebe42",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_steuerung",
+    "name": "spr_intro",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -13,6 +13,7 @@
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
+    "edgeFiltering": false,
     "frames": [
         {
             "id": "23ba2f68-6294-43ad-b39b-be4cac8a592f",
@@ -16531,7 +16532,8 @@
             "visible": true
         }
     ],
-    "origin": 0,
+    "origin": 4,
+    "originLocked": false,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
@@ -16541,6 +16543,6 @@
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
     "width": 1024,
-    "xorig": 0,
-    "yorig": 0
+    "xorig": 512,
+    "yorig": 288
 }

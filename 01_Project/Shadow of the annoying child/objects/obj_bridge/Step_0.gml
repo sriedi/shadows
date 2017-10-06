@@ -117,6 +117,24 @@ if(inposition == 0)
 		y = obj_bridge.y;
 		}
 	}
+
+	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
+	/// @DnDVersion : 1
+	/// @DnDHash : 307A5F4E
+	/// @DnDParent : 69D88309
+	/// @DnDArgument : "key" "vk_shift"
+	var l307A5F4E_0;
+	l307A5F4E_0 = keyboard_check(vk_shift);
+	if (l307A5F4E_0)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 08DFF0E3
+		/// @DnDParent : 307A5F4E
+		/// @DnDArgument : "expr" "1"
+		/// @DnDArgument : "var" "global.carry"
+		global.carry = 1;
+	}
 }
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
