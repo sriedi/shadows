@@ -1,0 +1,17 @@
+Adobe After Effects v14.2.1 Windows 64 render log for project “shadows_main 3.aep”
+
+Rendering started on 08/10/2017 at 22:17:36
+
+  08/10/2017 22:17:36: Starting composition “Endgame_win”.
+
+  Output To: C:\Users\sebi-\Desktop\GameDesign\03_Projects\GA0117_Shadows\XX_GIT\shadows\03_Animation\_Export\Endgame_win.avi    08/10/2017 22:17:41: Finished composition “Endgame_win”.
+
+
+  08/10/2017 22:17:41: Starting composition “Endgame_win”.
+
+  Output To: C:\Users\sebi-\Desktop\GameDesign\03_Projects\GA0117_Shadows\XX_GIT\shadows\03_Animation\_Export\Endgame_win\Endgame_win_[#####].png    08/10/2017 22:18:05: Finished composition “Endgame_win”.
+
+
+  Total Time Elapsed: 29 Seconds
+Log closed on 08/10/2017 at 22:18:05
+
