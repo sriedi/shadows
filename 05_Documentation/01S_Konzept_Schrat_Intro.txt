@@ -1,5 +1,3 @@
-
-
 Schrat
 Pascal Felber, Sebastian Riedi
 Ein Labyrinth Puzzle Spiel
@@ -8,9 +6,17 @@ Du hast dich zusammen mit deinem Baby im Wald verirrt. Suche nach einem Ausweg!
 Es heisst in der Dunkelheit des Waldes lauern die Waldschrate, sie holen sich die Seelen all jener, die es wagen ihre Ruhe zu stören.
 Halte das Kind bei dir und leuchte dir den Weg durch die Schatten.
 
-Schrat abgeleitet vom Begriff des Waldschrates ist eine klassische Sagengestalt. Schrate sind Waldgeister die, beispielsweise Bäume und
-Streucher bewohnt.
 
-Die Grundmechaniken des Spiels sind eine Kombination der Atari 7800 Spiele "Secret-Quest" und "Xenophobe"
+Die Grundmechaniken des Spiels sind eine Kombination der Atari 7800 Spiele "Secret-Quest" und "Xenophobe". Aus dem Atari 2600 Spiel Secret Quest
+stammen die Elemente des Labyrinths und der Orientierung. Aus dem 7800 Spiel Xenophobe stammen die Emelente der sich verändernden Gegner, die mit 
+zunehmender Dauer die Herausforderung an den Spieler erhöhen. Die Kernkonzepte des Spiels sind:
 
- 
+#Die Passivität des Spielers
+ Der Spieler kann die Waldgeister nicht aktiv bekämpfen, sondern kann sie nur über den Schein der Fackel vertreiben.
+
+#Labyrinth 
+Der Spieler muss einen Weg durch ein vorgegebenes Labyrinth mit verschiedenen Hindernissen bahnen. Dabei hat er die Entscheidung welchen Weg er nehmen möchte
+
+#Physischer und Psychischer Stress
+Das ständige Halten des Kindes oder anderer Objekte soll den Spieler auf einem grundsätzlichen physischen Level fordern. Je weiter der Spieler dem Ende des Levels näher kommt werden
+die Gegner zahlreicher und ihre Bewegung schneller.
