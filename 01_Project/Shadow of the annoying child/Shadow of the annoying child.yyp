@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "61f7c5fa-a30e-4efd-8ee8-4faca8938684",
+            "Value": {
+                "id": "4671a57d-23a9-48a9-9163-73fad2cdc7a5",
+                "resourcePath": "sprites\\spr_controlls_graphics\\spr_controlls_graphics.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "63966c55-fa7e-4b70-b3f8-fdfb1362c22c",
             "Value": {
                 "id": "9cce19b0-087d-4e7e-91ad-866535fbd1ff",
@@ -660,6 +668,14 @@
                 "id": "bb5ef119-3900-46e0-81ed-29e8758c308d",
                 "resourcePath": "views\\8c831265-4652-453f-8e6f-cdd0c286a8aa.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8fe4fe50-aef1-4667-9dde-69bea314f573",
+            "Value": {
+                "id": "e946141b-e532-4d70-ba5f-7f147ac041f0",
+                "resourcePath": "objects\\Obj_Menu_controlls\\Obj_Menu_controlls.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1059,6 +1075,14 @@
             "Value": {
                 "id": "66f332ea-8450-49fd-bc6a-22d471ebe852",
                 "resourcePath": "sprites\\spr_Attack\\spr_Attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f145bab4-b707-4560-b42b-a1de980db046",
+            "Value": {
+                "id": "30a4a47f-b7e1-4d8c-805f-e9a50835dd89",
+                "resourcePath": "sprites\\spr_controlls\\spr_controlls.yy",
                 "resourceType": "GMSprite"
             }
         },
