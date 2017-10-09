@@ -7,32 +7,33 @@
     "HTile": false,
     "VTile": false,
     "bbox_bottom": 56,
-    "bbox_left": 4,
-    "bbox_right": 59,
-    "bbox_top": 16,
+    "bbox_left": 5,
+    "bbox_right": 58,
+    "bbox_top": 13,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
+    "edgeFiltering": false,
     "frames": [
         {
-            "id": "ca94fdf6-f6a7-42a7-8bf3-05a2eb2957ca",
+            "id": "561dfcb2-499f-4e50-b993-469726897018",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "74e0a5c9-fc6c-4184-b914-12d769a4793b",
             "compositeImage": {
-                "id": "1428e2bf-ccbc-4966-8474-bf1eeb69c4d5",
+                "id": "cd7ab4d6-5d1d-4afb-8576-ed97c4c0d954",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "ca94fdf6-f6a7-42a7-8bf3-05a2eb2957ca",
+                "FrameId": "561dfcb2-499f-4e50-b993-469726897018",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "7deab71d-6d7f-4b25-9d9c-af3e896603f8",
+                    "id": "6a9f01b2-0b2e-4ea5-8da6-2823d3aa7bbd",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "ca94fdf6-f6a7-42a7-8bf3-05a2eb2957ca",
-                    "LayerId": "742d1f3e-ae2f-42d1-894d-7380fe4c53f8"
+                    "FrameId": "561dfcb2-499f-4e50-b993-469726897018",
+                    "LayerId": "f3ab2628-ffee-4ac5-8b7f-91b77432b262"
                 }
             ]
         }
@@ -42,7 +43,7 @@
     "height": 64,
     "layers": [
         {
-            "id": "742d1f3e-ae2f-42d1-894d-7380fe4c53f8",
+            "id": "f3ab2628-ffee-4ac5-8b7f-91b77432b262",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "74e0a5c9-fc6c-4184-b914-12d769a4793b",
@@ -54,6 +55,7 @@
         }
     ],
     "origin": 4,
+    "originLocked": false,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
