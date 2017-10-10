@@ -8,8 +8,8 @@ global.hp_baby = 100;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 0E1D50EB
-/// @DnDArgument : "code" "depth =-2000"
-depth =-2000
+/// @DnDArgument : "code" "depth =-2105"
+depth =-2105
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

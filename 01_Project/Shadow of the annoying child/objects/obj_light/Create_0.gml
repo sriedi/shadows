@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 43505DC3
+/// @DnDArgument : "code" "depth = -2200"
+depth = -2200
+
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 2F646592

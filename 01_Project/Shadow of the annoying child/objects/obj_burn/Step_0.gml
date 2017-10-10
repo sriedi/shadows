@@ -110,8 +110,8 @@ if(distance_to_object(obj_player1) < 30)
 	/// @DnDVersion : 1
 	/// @DnDHash : 0ED598A7
 	/// @DnDParent : 33859FF1
-	/// @DnDArgument : "code" "depth = -2200"
-	depth = -2200
+	/// @DnDArgument : "code" "depth = -2103"
+	depth = -2103
 
 	/// @DnDAction : YoYo Games.Instances.Color_Sprite
 	/// @DnDVersion : 1
