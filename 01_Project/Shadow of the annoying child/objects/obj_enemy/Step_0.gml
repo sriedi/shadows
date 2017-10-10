@@ -68,7 +68,7 @@ if global.enemyagro > 1
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 7F8176FF
-/// @DnDArgument : "code" "$(13_10)ep = instance_nearest(obj_player1.x,obj_player1.y,obj_enemy);$(13_10)eb = instance_nearest(obj_baby.x,obj_baby.y,obj_enemy);$(13_10)$(13_10)eby = instance_nearest(obj_baby.x,obj_baby.y,obj_enemy).y;$(13_10)ebx = instance_nearest(obj_baby.x,obj_baby.y,obj_enemy).x;$(13_10)$(13_10)baby = point_direction(eb.x,eb.y,obj_baby.x,obj_baby.y);$(13_10)player = point_direction(ep.x,ep.y,obj_player1.x,obj_player1.y);$(13_10)$(13_10)dis = 160;$(13_10)$(13_10)babydis = 5;$(13_10)$(13_10)$(13_10)$(13_10)$(13_10) $(13_10) $(13_10) if (meeting >=1)$(13_10)	{ $(13_10)	$(13_10)	$(13_10)if (global.Awake = 1)$(13_10)$(13_10)	{ $(13_10)	$(13_10)	$(13_10)	if (global.fear <= 0)$(13_10)	{ $(13_10)	move_towards_point(obj_baby.x,obj_baby.y,enemysdp) $(13_10)	if (distance_to_object(obj_baby) < babydis)$(13_10)$(13_10)	{$(13_10)	obj_baby.x = eb.x;$(13_10)	obj_baby.y = eb.y;$(13_10)	speed = -1;$(13_10)	direction = player;$(13_10)	babydis = 5;$(13_10)$(13_10)}$(13_10)	}$(13_10)	else$(13_10)	{$(13_10)	move_towards_point(obj_player1.x,obj_player1.y,fearspeed)$(13_10)	obj_baby.x = obj_baby.x$(13_10)	obj_baby.y = obj_baby.y$(13_10)	babydis= 0;$(13_10)	$(13_10)	$(13_10)	}$(13_10)}$(13_10)$(13_10)}$(13_10)$(13_10)else$(13_10){$(13_10)direction = player;$(13_10)sprite_index = spr_Enemy_idle;$(13_10)speed = 0;$(13_10)$(13_10)}$(13_10)$(13_10)$(13_10)$(13_10)if (distance_to_object(obj_player1) < dis)$(13_10)$(13_10)	{$(13_10)	meeting = 1;$(13_10)	global.Awake = 1;$(13_10)$(13_10)	$(13_10)}$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)"
+/// @DnDArgument : "code" "$(13_10)ep = instance_nearest(obj_player1.x,obj_player1.y,obj_enemy);$(13_10)eb = instance_nearest(obj_baby.x,obj_baby.y,obj_enemy);$(13_10)$(13_10)eby = instance_nearest(obj_baby.x,obj_baby.y,obj_enemy).y;$(13_10)ebx = instance_nearest(obj_baby.x,obj_baby.y,obj_enemy).x;$(13_10)$(13_10)baby = point_direction(eb.x,eb.y,obj_baby.x,obj_baby.y);$(13_10)player = point_direction(ep.x,ep.y,obj_player1.x,obj_player1.y);$(13_10)$(13_10)enemytarget = instance_nearest(obj_enemy.x,obj_enemy.y,obj_enemytarget);$(13_10)targetdirection	=point_direction(enemytarget.x,enemytarget.y,obj_enemy.x,obj_enemy.y);$(13_10)dis = 160;$(13_10)$(13_10)babydis = 5;$(13_10)$(13_10)$(13_10)$(13_10)$(13_10) $(13_10) $(13_10) if (meeting >=1)$(13_10)	{ $(13_10)	$(13_10)	$(13_10)if (global.Awake = 1)$(13_10)$(13_10)	{ $(13_10)	$(13_10)	$(13_10)	if (global.fear <= 0)$(13_10)	{ $(13_10)	move_towards_point(obj_baby.x,obj_baby.y,enemysdp) $(13_10)	if (distance_to_object(obj_baby) < babydis)$(13_10)$(13_10)	{$(13_10)	obj_baby.x = eb.x;$(13_10)	obj_baby.y = eb.y;$(13_10)	speed = enemysdp;$(13_10)	direction = targetdirection;$(13_10)	babydis = 5;$(13_10)$(13_10)}$(13_10)	}$(13_10)	else$(13_10)	{$(13_10)	move_towards_point(obj_player1.x,obj_player1.y,fearspeed)$(13_10)	obj_baby.x = obj_baby.x$(13_10)	obj_baby.y = obj_baby.y$(13_10)	babydis= 0;$(13_10)	$(13_10)	$(13_10)	}$(13_10)}$(13_10)$(13_10)}$(13_10)$(13_10)else$(13_10){$(13_10)direction = player;$(13_10)sprite_index = spr_Enemy_idle;$(13_10)speed = 0;$(13_10)$(13_10)}$(13_10)$(13_10)$(13_10)$(13_10)if (distance_to_object(obj_player1) < dis)$(13_10)$(13_10)	{$(13_10)	meeting = 1;$(13_10)	global.Awake = 1;$(13_10)$(13_10)	$(13_10)}$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)"
 
 ep = instance_nearest(obj_player1.x,obj_player1.y,obj_enemy);
 eb = instance_nearest(obj_baby.x,obj_baby.y,obj_enemy);
@@ -79,6 +79,8 @@ ebx = instance_nearest(obj_baby.x,obj_baby.y,obj_enemy).x;
 baby = point_direction(eb.x,eb.y,obj_baby.x,obj_baby.y);
 player = point_direction(ep.x,ep.y,obj_player1.x,obj_player1.y);
 
+enemytarget = instance_nearest(obj_enemy.x,obj_enemy.y,obj_enemytarget);
+targetdirection	=point_direction(enemytarget.x,enemytarget.y,obj_enemy.x,obj_enemy.y);
 dis = 160;
 
 babydis = 5;
@@ -105,8 +107,8 @@ if (global.Awake = 1)
 	{
 	obj_baby.x = eb.x;
 	obj_baby.y = eb.y;
-	speed = -1;
-	direction = player;
+	speed = enemysdp;
+	direction = targetdirection;
 	babydis = 5;
 
 }

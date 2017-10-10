@@ -1,11 +1,11 @@
 /// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
 /// @DnDHash : 7FBF04EE
-/// @DnDArgument : "imageind" "100"
+/// @DnDArgument : "imageind" "99"
 /// @DnDArgument : "spriteind" "spr_win"
 /// @DnDSaveInfo : "spriteind" "a2759f19-927f-48bc-aa8f-4b6d63d23d58"
 sprite_index = spr_win;
-image_index = 100;
+image_index = 99;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1
