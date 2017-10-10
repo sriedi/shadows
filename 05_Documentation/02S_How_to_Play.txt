@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Dein Zeil ist es durch den Wald zu einem sicheren Unterschlupf zu kommen. 
 Benutze den Analogstick, um dich zu bewegen.
 
@@ -11,12 +12,21 @@ Achte immer
 darauf das Baby möglichst nahe bei dir zu halten.
 Wenn du Baumstämme trägst, kannst du das Baby nicht Tragen.
 
+=======
+Dein Zeil ist es durch den Wald zu einem sicheren Unterschlupf zu kommen. Benutze den Analogstick, um dich zu bewegen.
+Mit der Linken Handtaste greifst du Objekte. An einigen Orten blockieren Gräben dein Weiterkommen. Suche nach einem Baumstamm um eine Brücke zu Bauen. Achte immer
+darauf das Baby möglichst nahe bei dir zu halten. Wenn du Baumstämme trägst, kannst du das Baby nicht Tragen.
+>>>>>>> parent of 3fac5b7... Expanded Documentation and Powerpoint
 
 Mit der rechten Handtaste kannst du die Fackel hochhalten und Dinge in Brand stecken. 
 
+Die Waldschrate haben Angst vor dem Feuer der Fackel, doch dein Licht wird immer kleiner. Sammle Äste auf, um die Fackel am Brennen zu halten.
 
+<<<<<<< HEAD
 Die Waldschrate haben Angst vor dem Feuer der Fackel, doch dein Licht wird immer kleiner. 
 Sammle Äste auf, um die Fackel am Brennen zu halten.
 
 
 Es gibt verschiedene Wege zum Ziel, einige erfordern, dass du Hindernisse nieder brennst. Die Schrate mögen es nicht, wenn du ihren Wald zerstörst und werden sich noch schneller auf dich zubewegen.
+=======
+>>>>>>> parent of 3fac5b7... Expanded Documentation and Powerpoint

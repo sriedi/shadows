@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Ein Ausflug wird zum Albtraum, als sich die namenlose Protagonistin hat sich zusammen mit ihrem Kleinkind im Wald verirrt.
 Sie muss einen Ausweg aus der Dunkelheit des Waldes finden. 
 
@@ -6,3 +7,6 @@ Sträucher bewohnt. Die Waldgeister sind dabei auch immer wieder eine Metapher fü
 Die Schrate versuchen das Kleinkind aus der Obhut des Spielers zu entführt; ein klassisches Motiv der mitteleuropäischen Sagen.
 
 Der Wald ist dunkel und kalt. Nur ein Unterschlupf oder das Feuer bringt Licht in die Dunkelheit und Schutz vor den gefahren des Waldes.
+=======
+Setting Beschreibung
+>>>>>>> parent of 3fac5b7... Expanded Documentation and Powerpoint
