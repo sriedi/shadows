@@ -18,5 +18,6 @@ zunehmender Dauer die Herausforderung an den Spieler erhöhen. Die Kernkonzepte d
 Der Spieler muss einen Weg durch ein vorgegebenes Labyrinth mit verschiedenen Hindernissen bahnen. Dabei hat er die Entscheidung welchen Weg er nehmen möchte
 
 #Physischer und Psychischer Stress
+
 Das ständige Halten des Kindes oder anderer Objekte soll den Spieler auf einem grundsätzlichen physischen Level fordern. Je weiter der Spieler dem Ende des Levels näher kommt werden
 die Gegner zahlreicher und ihre Bewegung schneller.
