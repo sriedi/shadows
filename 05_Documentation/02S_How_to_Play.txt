@@ -20,3 +20,8 @@ Sammle Äste auf, um die Fackel am Brennen zu halten.
 
 
 Es gibt verschiedene Wege zum Ziel, einige erfordern, dass du Hindernisse nieder brennst. Die Schrate mögen es nicht, wenn du ihren Wald zerstörst und werden sich noch schneller auf dich zubewegen.
+
+#Setup mit Steam
+Um Schrat mit dem Steam Controller zu Spielen füge das Spiel in Steam unter "Spiele" > "Steam-fremdes Spiel hinzufügen". 
+Gehe Anschliessend inner halb der Steam Bibliothek mit Rechts'Klick auf den Punkt Controller-Konfiguration. 
+Suche unter Konfigurationen durchsuchen nach der Konfiguration: Schrat Official Binings.

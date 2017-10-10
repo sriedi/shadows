@@ -122,7 +122,7 @@
             "Key": "1ab84686-c5c5-489f-a087-97dc450506c8",
             "Value": {
                 "id": "2e4e44de-f72b-40ee-a825-85e41146d1bd",
-                "resourcePath": "sounds\\enemy_\\enemy_.yy",
+                "resourcePath": "sounds\\enemy_carry\\enemy_carry.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -711,6 +711,14 @@
             }
         },
         {
+            "Key": "91455610-88b3-4466-9d1b-337c264b31cc",
+            "Value": {
+                "id": "e938411f-bad0-4843-ad2b-b9ceaa6be15f",
+                "resourcePath": "sounds\\victory\\victory.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "91de6c6a-176a-4f50-9b3f-a1971b338550",
             "Value": {
                 "id": "6276f2f8-0a0e-42dd-ba07-0a4818607732",
@@ -740,6 +748,14 @@
                 "id": "a2b1fe3c-aa43-4e29-84d7-3b40522d12be",
                 "resourcePath": "sprites\\spr_mushroom_blue\\spr_mushroom_blue.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a01531cb-fae5-432c-897f-9246006d9734",
+            "Value": {
+                "id": "7b17be4f-4a66-4a87-a489-7251c795897e",
+                "resourcePath": "sounds\\enemy_fear\\enemy_fear.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -844,6 +860,14 @@
                 "id": "3ea920f9-421c-4ddd-8c78-52735faf977b",
                 "resourcePath": "views\\abcd0e15-59fc-4663-8707-602e16e76dad.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ac1f2719-937b-4c71-8da3-f23ebbf8a497",
+            "Value": {
+                "id": "cd0d4258-953a-488c-a188-4d5fb4186339",
+                "resourcePath": "sounds\\defeat\\defeat.yy",
+                "resourceType": "GMSound"
             }
         },
         {

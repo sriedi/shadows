@@ -1,19 +1,3 @@
-/// @DnDAction : YoYo Games.Audio.Play_Audio
-/// @DnDVersion : 1
-/// @DnDHash : 387A1A75
-/// @DnDArgument : "soundid" "anbiente"
-/// @DnDArgument : "loop" "1"
-/// @DnDSaveInfo : "soundid" "8131266a-daf6-4fe6-8735-3a9955f5ed1d"
-audio_play_sound(anbiente, 0, 1);
-
-/// @DnDAction : YoYo Games.Audio.Play_Audio
-/// @DnDVersion : 1
-/// @DnDHash : 761BA3B3
-/// @DnDArgument : "soundid" "musik"
-/// @DnDArgument : "loop" "1"
-/// @DnDSaveInfo : "soundid" "75713228-b2bb-44a3-8f3b-3c04b24009a2"
-audio_play_sound(musik, 0, 1);
-
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3A422CBB
