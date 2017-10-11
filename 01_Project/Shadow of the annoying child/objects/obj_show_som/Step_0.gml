@@ -17,9 +17,9 @@ if(distance_to_object(obj_player1) < 120)
 	/// @DnDVersion : 1
 	/// @DnDHash : 0DBA57D5
 	/// @DnDParent : 16BC2216
-	/// @DnDArgument : "colour" "$FF02FFF2"
-	image_blend = $FF02FFF2 & $ffffff;
-	image_alpha = ($FF02FFF2 >> 24) / $ff;
+	/// @DnDArgument : "colour" "$FFA7FF05"
+	image_blend = $FFA7FF05 & $ffffff;
+	image_alpha = ($FFA7FF05 >> 24) / $ff;
 
 	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 	/// @DnDVersion : 1
@@ -47,8 +47,8 @@ if(distance_to_object(obj_player1) < 120)
 	/// @DnDVersion : 1
 	/// @DnDHash : 518AB73B
 	/// @DnDParent : 16BC2216
-	/// @DnDArgument : "alpha" "0.15"
-	image_alpha = 0.15;
+	/// @DnDArgument : "alpha" "0.1"
+	image_alpha = 0.1;
 
 	/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 	/// @DnDVersion : 1
